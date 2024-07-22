@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+// Font Family
+$theme-fonts: (
+    body: (
+        font-family: "'Poppins', sans-serif",
+    ),
+    heading: (
+        font-family: "'Poppins', serif",
+    ),
+    display: (
+        font-family: "'Poppins', serif",
+    ),
+);
+// Font Size
+$font-size: (
+    body: (
+        font-size: 16px,
+    ),
+    fs: (
+        1: 40px,
+        2: 32px,
+        3: 28px,
+        4: 24px,
+        5: 20px,
+        6: 16px,
+        7: 14px,
+        8: 12px,
+    ),
+    ds: (
+        1: 80px,
+        2: 72px,
+        3: 64px,
+        4: 56px,
+        5: 48px,
+        6: 40px,
+    ),
+    ds-xs: (
+        1: 64px,
+        2: 56px,
+        3: 48px,
+        4: 36px,
+        5: 28px,
+        6: 24px,
+    ),
+);
+// Line Height
+$theme-lh: (
+    body: (
+        line-height: 1.5,
+    ),
+    heading: (
+        line-height: 1.2,
+    ),
+);
+// Font Weight
+$font-weight: (
+    fw: (
+        extra-bold: 800,
+        bold: 700,
+        semi-bold: 600,
+        medium: 500,
+        regular: 400,
+        light: 300,
+    ),
+);

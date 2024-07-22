@@ -1,0 +1,290 @@
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media screen and (max-width: 1399.98px) {
+}
+// `xl` applies to large devices (desktops, less than 1200px)
+@media screen and (max-width: 1199.98px) {
+}
+// `lg` applies to medium devices (tablets, less than 992px)
+@media screen and (max-width: 991.98px) {
+    .ds-1 {
+        font-size: 48px !important;
+        line-height: 1.2;
+        letter-spacing: -1px;
+    }
+    .ds-2 {
+        font-size: 36px !important;
+        line-height: 1.25;
+    }
+    .title-lg {
+        letter-spacing: -1px;
+    }
+    .max-width-90 {
+        max-width: 90%;
+    }
+    .title {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    .section-padding {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .video {
+        bottom: 73%;
+    }
+    .counter-up {
+        min-height: 1000px;
+    }
+    .icon-medium {
+        min-width: 135px;
+        min-height: 135px;
+        img {
+            transform: scale(0.7);
+        }
+    }
+    .icon-lage {
+        min-width: 300px;
+        min-height: 135px;
+        img {
+            transform: scale(0.7);
+        }
+    }
+    .box-text {
+        min-height: 450px !important;
+    }
+    .add-padding-top {
+        padding-top: 250px;
+    }
+    .add-padding-bot {
+        padding-bottom: 250px;
+    }
+    .section-6-home-3 {
+        padding: 100px 0 0 0;
+    }
+    .fs-md-6 {
+        font-size: 14px !important;
+    }
+    .embossed-img {
+        left: 0 !important;
+        display: inline-flex;
+    }
+    .hero-2 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .title-home2 {
+        padding: 250px 0;
+    }
+    .fs-2 {
+        font-size: 18px !important;
+    }
+    .p-10 {
+        padding: 2rem !important;
+    }
+}
+// `md` applies to small devices (landscape phones, less than 768px)
+@media screen and (max-width: 767.98px) {
+    .btn-white, .btn-gradient, .btn-primary {
+        padding: 18px 22px;
+    }
+    br {display: none;}
+    .icon-xxl {
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+    }
+    .fs-2 {
+        font-size: 16px !important;
+    }
+    .p-10 {
+        padding: 1rem !important;
+    }
+}
+@media (min-width: 768px) {
+    .translate-middle-md-x {
+        transform: translateX(-50%) !important;
+    }
+    .start-md-100 {
+        left: 100% !important;
+    }
+    .px-md-10 {
+        padding-right: 6rem !important;
+        padding-left: 6rem !important;
+    }
+    .me-md-3 {
+        margin-right: 1rem !important;
+    }
+    .ms-md-3 {
+        margin-left: 1rem !important;
+    }
+    .pt-md-6 {
+        padding-top: 2.5rem !important;
+    }
+}
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media screen and (max-width: 575.98px) {
+}
+// `xs` applies to x-small devices (portrait phones, less than 475px)
+@media screen and (max-width: 474.98px) {
+    .section-padding {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .title {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    .video {
+        bottom: 75%;
+    }
+    .counter-up {
+        min-height: 800px;
+    }
+    .icon-medium {
+        min-width: 100px;
+        min-height: 100px;
+        img {
+            transform: scale(0.5);
+        }
+    }
+    .icon-lage {
+        min-width: 218px;
+        min-height: 100px;
+        img {
+            transform: scale(0.5);
+        }
+    }
+    .stroke-twenty {
+        font-size: 90px;
+    }
+    .text-xs {
+        font-size: 14px !important;
+    }
+    .box-text {
+        min-height: 400px;
+    }
+    .add-padding-top {
+        padding-top: 80px;
+    }
+    .add-padding-bot {
+        padding-bottom: 80px;
+    }
+    .section-6-home-3 {
+        padding: 100px 0 0 0;
+    }
+    .fs-md-6 {
+        font-size: 14px !important;
+    }
+    .embossed-img {
+        left: 0 !important;
+        display: inline-flex;
+    }
+    .btn-swp-group {
+        right: 0 !important;
+    }
+    .card-services {
+        width: 170px;
+        min-height: 200px;
+    }
+    .stroke {
+        margin-top: 100px;
+    }
+    .hero-3 {
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+    .ds-5 {
+        font-size: 26px !important;
+    }
+    .footer-3 {
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+    .pd-top-250px {
+        padding-top: 150px;
+    }
+    .pd-bottom-120px {
+        padding-bottom: 80px;
+    }
+}
+// `lg` applies to medium devices (PC, bigger than 992px)
+@media screen and (min-width: 992px) {
+    .translate-lg-middle-y {
+        transform: translateY(-50%) !important;
+    }
+    .pe-lg-10 {
+        padding-right: 6rem !important;
+    }
+    .ps-lg-10 {
+        padding-left: 6rem !important;
+    }
+    .p-10 {
+        padding: 6rem !important;
+    }
+    .ps-lg-4 {
+        padding-left: 1.5rem !important;
+    }
+    .mb-lg-0 {
+        margin-bottom: 0 !important;
+    }
+    .ms-lg-8 {
+        margin-left: 4rem !important;
+    }
+    .pt-lg-10 {
+        padding-top: 6rem !important;
+      }
+    .border-start-lg {
+        border-left: 1px solid var(--tc-border-1) !important;
+    }
+    .border-lg-end {
+        border-right: 1px solid var(--tc-border-1) !important;
+    }
+    .ms-lg-10 {
+        margin-left: 6rem !important;
+    }
+    .translate-middle-lg {
+        transform: translate(-50%, -50%) !important;
+    }
+    .start-lg-0 {
+        left: 0 !important;
+    }
+    .mb-lg-0 {
+        margin-bottom: 0 !important;
+    }
+    .d-lg-flex {
+        display: flex !important;
+    }
+    .d-lg-flex {
+        display: flex !important;
+    }
+    .text-lg-start {
+        text-align: left !important;
+    }
+    .top-lg-50 {
+        top: 50% !important;
+    }
+    .text-lg-start {
+        text-align: left !important;
+    }
+    .ms-lg-4 {
+        margin-left: 1.5rem !important;
+    }
+    .mt-lg-0 {
+        margin-top: 0 !important;
+    }
+    .w-lg-25 {
+        width: 25% !important;
+    }
+    .w-lg-40 {
+        width: 40% !important;
+    }
+    .ps-lg-8 {
+        padding-left: 4rem !important;
+    }
+    .position-lg-absolute {
+        position: absolute !important;
+    }
+    .w-lg-75 {
+        width: 75% !important;
+    }
+}

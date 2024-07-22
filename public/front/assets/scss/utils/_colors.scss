@@ -1,0 +1,40 @@
+$colors: (
+    body: (
+        color: #808080,
+    ),
+    theme: (
+        primary: #f94743,
+        primary-dark: #f51b18,
+        primary-light: rgba(249, 70, 67, 0.123),
+        secondary: #6c757d,
+    ),
+    neutral: (
+        0: #ffffff,
+        50: #eaeaea,
+        100: #d5d5d5,
+        200: #ababab,
+        300: #808080,
+        400: #565656,
+        500: #2c2c2c,
+        600: #212121,
+        700: #161616,
+        800: #0b0b0b,
+        900: #060606,
+        1000: #101010,
+    ),
+    border: (
+        1: #e8e8e8,
+        2: #e6e7f3,
+        3: red,
+    ),
+    bg: (
+        1: #ffffff,
+    ),
+    gradient: (
+        1: linear-gradient(90deg, #f94743 0%, #ff7b49 100%),
+    ),
+    shadow: (
+        1: 0px 16px 32px 0px rgba(249, 71, 67, 0.3),
+        2: 0px 16px 32px 0px rgba(156, 156, 156, 0.3),
+    ),
+);
