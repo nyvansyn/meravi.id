@@ -20,3 +20,15 @@ Route::get('/', function () {
 Route::get('/tentang-kami', function () {
     return view('front.about');
 });
+Route::get('/bumdes', function () {
+    return view('front.program.bumdes');
+});
+Route::get('/umkm', function () {
+    return view('front.program.umkm');
+});
+Route::get('/mitra', function () {
+    return view('front.client');
+});
+Route::get('/portofolio', function () {
+    return view('front.portofolio');
+});

@@ -1,4 +1,4 @@
-<section>
+<section id="clinet">
     <div class="container section-padding border-top">
         <div class="row pd-bottom-120px">
             <div class="col-12 text-center" data-aos="fade-up">
