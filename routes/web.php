@@ -32,3 +32,7 @@ Route::get('/mitra', function () {
 Route::get('/portofolio', function () {
     return view('front.portofolio');
 });
+
+Route::get('/dashboard', function () {
+    return view('back.dashboard');
+});

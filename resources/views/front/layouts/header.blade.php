@@ -42,8 +42,8 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light w-100 z-4 tcmenu__wrap">
         <div class="container px-3">
-            <a href="{{ url('/') }}" class="navbar-brand pe-4" href="index.html"><img
-                    src="{{ asset('front/assets/images/logo/meravilogo.svg') }}" alt="abon"></a>
+            <a href="{{ url('/') }}" class="navbar-brand pe-4 pe-lg-2"><img
+                    src="{{ asset('front/assets/images/logo/meravilogo.svg') }}" alt="meravi.id"></a>
             <div
                 class="mobile-nav-toggler d-block d-lg-none btn btn-primary btn-navbar rounded-circle px-2 ms-4 d-flex align-items-center justify-content-center">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -87,11 +87,11 @@
             <div class="offcanvas offcanvas-start offcanvas-nav">
                 <div class="offcanvas-header">
                     <a href="{{ url('/') }}" class="text-inverse"><img
-                            src="{{ asset('front/assets/images/logo/meravilogo.svg') }}" alt="abon"></a>
+                            src="{{ asset('front/assets/images/logo/meravilogo.svg') }}" alt="meravi.id"></a>
                 </div>
                 <div class="offcanvas-body pt-0 align-items-center justify-content-between">
                     <div class="tcmenu__navbar-wrap tcmenu__main-menu d-none d-lg-flex">
-                        <ul class="navbar-nav me-auto gap-4 align-items-lg-center navigation">
+                        <ul class="navbar-nav me-auto gap-3 align-items-lg-center navigation">
 
                             {{-- <li class="nav-item">
                                 <a class="nav-link fw-medium" href="#">Beranda</a>
@@ -177,7 +177,7 @@
                             </svg>
                         </a> --}}
                         <a href="" class="btn-gradient" target="_blank">Daftar/Masuk<i
-                                class="bi bi-arrow-right ms-2"></i></a>
+                                class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -189,7 +189,7 @@
         <nav class="tcmobile__menu-box">
             <div class="close-btn"><i class="fas fa-times"></i></div>
             <div class="nav-logo">
-                <a class="mobi-logo" href="index.html"><img
+                <a class="mobi-logo" href="{{ url('/') }}"><img
                         src="{{ asset('front/assets/images/logo/meravilogo.svg') }}" alt="abon"></a>
             </div>
             {{-- <div class="tcmobile__search">
