@@ -36,3 +36,11 @@ Route::get('/portofolio', function () {
 Route::get('/dashboard', function () {
     return view('back.dashboard');
 });
+
+Route::get('/masuk', function () {
+    return view('back.auth.login');
+});
+
+Route::get('/daftar', function () {
+    return view('back.auth.register');
+});
