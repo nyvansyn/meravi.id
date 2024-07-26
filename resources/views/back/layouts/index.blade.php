@@ -19,6 +19,9 @@
     <link rel="stylesheet" type="text/css"
         href="{{ asset('back/assets/lib/datetimepicker/css/bootstrap-datetimepicker.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('back/assets/css/app.css') }}" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/lib/datatables/datatables.net-bs4/dataTables.bootstrap4.css" />
+    <link rel="stylesheet" type="text/css"
+        href="assets/lib/datatables/datatables.net-responsive-bs4/responsive.bootstrap4.min.css" />
 </head>
 
 <body>
@@ -47,14 +50,38 @@
     <script src="{{ asset('back/assets/lib/jquery-ui/jquery-ui.min.js') }}" type="text/javascript"></script>
     <script src="{{ asset('back/assets/lib/jqvmap/jquery.vmap.min.js') }}" type="text/javascript"></script>
     <script src="{{ asset('back/assets/lib/jqvmap/jquery.vmap.world.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/datatables/datatables.net/jquery.dataTables.js') }}" type="text/javascript">
+    </script>
+    <script src="{{ asset('back/assets/lib/datatables/datatables.net-bs4/dataTables.bootstrap4.js') }}"
+        type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/datatables/datatables.net-buttons/dataTables.buttons.min.js') }}"
+        type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/datatables/datatables.net-buttons/buttons.flash.min.js') }}"
+        type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/datatables/jszip/jszip.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/datatables/pdfmake/pdfmake.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/datatables/pdfmake/vfs_fonts.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/datatables/datatables.net-buttons/buttons.colVis.min.js') }}"
+        type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/datatables/datatables.net-buttons/buttons.print.min.js') }}"
+        type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/datatables/datatables.net-buttons/buttons.html5.min.js') }}"
+        type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/datatables/datatables.net-buttons-bs4/buttons.bootstra') }}p4.min.js"
+        type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/datatables/datatables.net-responsive/dataTables.responsive.min.js') }}"
+        type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/datatables/datatables.net-responsive-bs4/responsive.bootstrap4.min.js') }}"
+        type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             //-initialize the javascript
             App.init();
             App.dashboard();
-
         });
     </script>
+    @stack('js')
+
 </body>
 
 </html>

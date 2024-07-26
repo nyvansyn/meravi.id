@@ -44,3 +44,7 @@ Route::get('/masuk', function () {
 Route::get('/daftar', function () {
     return view('back.auth.register');
 });
+
+Route::get('/banner', function () {
+    return view('back.banner.index');
+});
