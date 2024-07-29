@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -48,3 +49,10 @@ Route::get('/daftar', function () {
 Route::get('/banner', function () {
     return view('back.banner.index');
 });
+
+Route::get('login', [AuthController::class, 'index'])->name('login');
+Route::get('register', [AuthController::class, 'register'])->name('register');
+Route::post('proses_login', [AuthController::class, 'auth'])->name('auth');
+Route::get('logout', [AuthController::class, 'logout'])->name('logout');
+
+Route::post('auth_register', [AuthController::class, 'auth_register'])->name('auth_register');

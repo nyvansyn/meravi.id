@@ -176,8 +176,14 @@
                                 </defs>
                             </svg>
                         </a> --}}
-                        <a href="" class="btn-gradient" target="_blank">Daftar/Masuk<i
-                                class="bi bi-arrow-right"></i></a>
+                        @guest
+                            <a href="{{ route('register') }}" class="btn-gradient">Daftar/Masuk<i
+                                    class="bi bi-arrow-right"></i></a>
+                        @else
+                            <a class="fw-medium me-2">{{ Auth::user()->name }}</a>
+                            <a class="btn-black" href="{{ route('logout') }}">logout</a>
+                        @endguest
+
                     </div>
                 </div>
             </div>
@@ -204,8 +210,15 @@
             <div class="tcmobile__menu-bottom">
                 <div class="contact-info">
                     <div class="mb-4">
-                        <a href="" class="btn-gradient" target="_blank">Daftar/Masuk<i
-                                class="bi bi-arrow-right ms-2"></i></a>
+                        {{-- <a href="" class="btn-gradient" target="_blank">Daftar/Masuk<i
+                                class="bi bi-arrow-right ms-2"></i></a> --}}
+                        @guest
+                            <a href="{{ route('register') }}" class="btn-gradient">Daftar/Masuk<i
+                                    class="bi bi-arrow-right"></i></a>
+                        @else
+                            {{-- <a class="fw-medium me-2">{{ Auth::user()->name }}</a> --}}
+                            <a class="btn-black" href="{{ route('logout') }}">logout</a>
+                        @endguest
                     </div>
 
                     <ul class="list-wrap list-unstyled">
