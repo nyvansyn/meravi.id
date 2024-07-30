@@ -35,6 +35,10 @@ Route::get('/portofolio', function () {
     return view('front.portofolio');
 });
 
+Route::get('/dokumen', function () {
+    return view('front.document');
+});
+
 // Route::get('/dashboard', function () {
 //     return view('back.dashboard');
 // });
