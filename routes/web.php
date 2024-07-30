@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\DocumentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -66,5 +67,25 @@ Route::group(['middleware' => ['auth']], function () {
     Route::group(['middleware' => ['cek_login:admin']], function () {
         Route::resource('dashboard', DashboardController::class);
         Route::get('/member', [DashboardController::class, 'user'])->name('user');
+
+        //Archive
+        Route::group(['prefix' => '/document'], function () {
+            Route::get('/', [DocumentController::class, 'index'])->name('admin.document');
+            Route::get('/create', [DocumentController::class, 'create'])->name('admin.document.create');
+            Route::post('/store', [DocumentController::class, 'store'])->name('admin.document.store');
+            Route::get('/edit/{id}', [DocumentController::class, 'edit'])->name('admin.document.edit');
+            Route::post('/update/{id}', [DocumentController::class, 'update'])->name('admin.document.update');
+            Route::post('/delete/{id}', [DocumentController::class, 'destroy'])->name('admin.document.destroy');
+
+            // document Category
+            Route::group(['prefix' => '/category'], function () {
+                Route::get('/', [DocumentController::class, 'indexCategory'])->name('admin.document.category');
+                Route::get('/create', [DocumentController::class, 'createCategory'])->name('admin.document.category.create');
+                Route::post('/store', [DocumentController::class, 'storeCategory'])->name('admin.document.category.store');
+                Route::get('/edit/{id}', [DocumentController::class, 'editCategory'])->name('admin.document.category.edit');
+                Route::post('/update/{id}', [DocumentController::class, 'updateCategory'])->name('admin.document.category.update');
+                Route::post('/delete/{id}', [DocumentController::class, 'destroyCategory'])->name('admin.document.category.destroy');
+            });
+        });
     });
 });
