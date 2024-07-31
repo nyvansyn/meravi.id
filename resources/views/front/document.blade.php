@@ -309,12 +309,11 @@
                             <label for="search" class="small mb-2" style="font-weight: 600">Kategori</label>
                             <select class="form-select rounded-4" id="category" name="category">
                                 <option value="">Semua Kategori</option>
-                                <option value="">Meravi</option>
-                                <option value="">BUM Desa</option>
-                                <option value="">UMKM</option>
-                                {{-- @foreach ($categories as $category)
-                            <option value="{{ $category->slug }}" {{ request()->category == $category->slug ? 'selected' : '' }}>{{ $category->name }}</option>
-                            @endforeach --}}
+                                @foreach ($categories as $category)
+                                    <option value="{{ $category->slug }}"
+                                        {{ request()->category == $category->slug ? 'selected' : '' }}>{{ $category->name }}
+                                    </option>
+                                @endforeach
                             </select>
                         </div>
                         <div class="col-lg-3 mb-lg-0 mb-3">
@@ -348,17 +347,12 @@
                             </tr>
                         </thead>
                         <tbody class="small">
-                            <td class="text-capitalize">testing</td>
-                            <td>meravi</td>
-                            <td>30 Juli 2024</td>
-                            <td><a href="" class="btn btn-sm text-light rounded-4 w-100">Unduh</a></td>
-                            </tr>
-                            {{-- @forelse ($archives as $archive)
+                            @forelse ($documents as $document)
                                 <tr>
-                                    <td class="text-capitalize">{{ $archive->name }}</td>
-                                    <td>{{ $archive->archiveCategory->name }}</td>
-                                    <td>{{ $archive->created_at }}</td>
-                                    <td><a href="{{ url('download/' . $archive->id) }}"
+                                    <td class="text-capitalize">{{ $document->name }}</td>
+                                    <td>{{ $document->kategori->name }}</td>
+                                    <td>{{ $document->created_at }}</td>
+                                    <td><a href="{{ url('download/' . $document->id) }}"
                                             class="btn btn-sm bg-green text-light rounded-4 w-100">Unduh</a></td>
                                 </tr>
                             @empty
@@ -367,12 +361,12 @@
                                         <h6 class="m-0 p-0 text-center">Data tidak ada</h6>
                                     </td>
                                 </tr>
-                            @endforelse --}}
+                            @endforelse
                         </tbody>
                     </table>
                     <!-- pagination link -->
                     <div class="d-flex justify-content-center align-items-center m-4">
-                        {{-- {{ $archives->links() }} --}}
+                        {{ $documents->links() }}
                     </div>
                 </div>
             </div>

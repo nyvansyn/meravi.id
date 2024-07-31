@@ -36,9 +36,9 @@ Route::get('/portofolio', function () {
     return view('front.portofolio');
 });
 
-Route::get('/dokumen', function () {
-    return view('front.document');
-});
+// Route::get('/dokumen', function () {
+//     return view('front.document');
+// });
 
 // Route::get('/dashboard', function () {
 //     return view('back.dashboard');
@@ -55,6 +55,9 @@ Route::get('/daftar', function () {
 Route::get('/banner', function () {
     return view('back.banner.index');
 });
+
+Route::get('/download', [DocumentController::class, 'show']);
+Route::get('download/{documents}', [DocumentController::class, 'download'])->middleware('auth');
 
 Route::get('login', [AuthController::class, 'index'])->name('login');
 Route::get('register', [AuthController::class, 'register'])->name('register');

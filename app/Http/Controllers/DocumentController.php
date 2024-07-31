@@ -12,9 +12,8 @@ class DocumentController extends Controller
 {
     public function index()
     {
-        $documents = Document::orderBy('id', 'desc')->get();
-        $categories = Category::all();
-        return view('admin.documents$documents.index')->with(['documents' => $documents, 'categories' => $categories]);
+        $documents = Document::with(['kategori'])->orderBy('id', 'desc')->get();
+        return view('back.document.index')->with(['documents' => $documents]);
     }
 
     public function indexCategory()
@@ -25,9 +24,8 @@ class DocumentController extends Controller
 
     public function create()
     {
-        $Arcives   = Document::all();
         $categories = Category::all();
-        return view('admin.archives.create', compact('categories'));
+        return view('back.document.create', compact('categories'));
     }
 
     public function createCategory()
@@ -67,7 +65,7 @@ class DocumentController extends Controller
         $input = $request->all();
 
         if ($file = $request->file('path')) {
-            $destinationPath = 'public/archive/';
+            $destinationPath = 'back/assets/doc/';
             $profileFile =  $file->getClientOriginalName(); //. microtime() .'.'.$file->getClientOriginalExtension();
             $file->move($destinationPath, $profileFile);
             $input['path'] = "$profileFile";
@@ -75,15 +73,15 @@ class DocumentController extends Controller
 
         Document::create($input);
 
-        return redirect()->route('admin.archives')->with('success', 'You have successfully created a archive.');
+        return redirect()->route('admin.document')->with('success', 'You have successfully created a archive.');
     }
 
     public function edit($id)
     {
-        $archive = Document::find($id);
+        $document = Document::find($id);
         $categories = Category::all();
-        return view('admin.archives.edit', [
-            'archive' => $archive,
+        return view('back.document.edit', [
+            'document' => $document,
             'categories' => $categories
         ]);
     }
@@ -101,20 +99,21 @@ class DocumentController extends Controller
             'name'                  =>  'required',
         ]);
 
-        $archive = Document::find($request->id);
-        if ($archive) {
-            $archive->name = $request->name;
+        $document = Document::find($request->id);
+        if ($document) {
+            $document->category_id = $request->category_id;
+            $document->name = $request->name;
             if ($request->hasFile('path')) {
-                $this->deletArchivePath($archive);
+                $this->deletDocPath($document);
                 if ($path = $request->file('path')) {
-                    $destinationPath = 'public/archive/';
-                    $profilePath = $path->getClientOriginalName() . microtime();
+                    $destinationPath = 'back/assets/doc/';
+                    $profilePath = $path->getClientOriginalName();
                     $path->move($destinationPath, $profilePath);
-                    $archive['path'] = "$profilePath";
+                    $document['path'] = "$profilePath";
                 }
             }
-            $archive->save();
-            return redirect()->route('admin.archives')->with('success', 'You have successfully update a archive.');
+            $document->save();
+            return redirect()->route('admin.document')->with('success', 'You have successfully update a archive.');
         }
         return back()->withError('Invalid archive.');
     }
@@ -138,9 +137,9 @@ class DocumentController extends Controller
     {
         $archive = Document::find($request->id);
         if ($archive) {
-            $this->deletArchivePath($archive);
+            $this->deletDocPath($archive);
             $archive->delete();
-            return redirect()->route('admin.archives')->with('success', 'You have successfully delete a archive.');
+            return redirect()->route('admin.document')->with('success', 'You have successfully delete a archive.');
         }
         return back()->withError('Invalid archive.');
     }
@@ -153,28 +152,28 @@ class DocumentController extends Controller
         return redirect()->route('admin.document.category')->with('success', 'You have successfully delete a category.');
     }
 
-    private function deletArchivePath($archive)
+    private function deletDocPath($document)
     {
-        if ($archive->path) {
+        if ($document->path) {
             // $imgDestroy = 'public/images/banner/'.$banner->image;
-            $imgDestroy = 'public/archive/' . $archive->path;
+            $imgDestroy = 'back/assets/doc/' . $document->path;
             if (File::exists($imgDestroy)) {
                 File::delete($imgDestroy);
             }
         }
     }
 
-    public function download(Document $archives)
+    public function download(Document $documents)
     {
-        return response()->download('public/archive/' . $archives->path);
+        return response()->download('back/assets/doc/' . $documents->path);
     }
 
     public function show()
     {
-        return view('frontend.download.index', [
+        return view('front.document', [
             //  'categories' => ArchiveCategory::all(),
             'categories' => Category::where('id', '!=', 8)->get(),
-            'archives' => Document::with('archiveCategory')->where('archive_category_id', '!=', 8)->filter(request(['search', 'category', 'sort']))->latest()->paginate(20)->withQueryString()
+            'documents' => Document::with('kategori')->where('category_id', '!=', 8)->filter(request(['search', 'category', 'sort']))->latest()->paginate(20)->withQueryString()
         ]);
     }
 }

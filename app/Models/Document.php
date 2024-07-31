@@ -25,7 +25,7 @@ class Document extends Model
 
         // filter category
         $query->when($filters['category'] ?? false, function ($query, $category) {
-            $query->whereHas('category', function ($query) use ($category) {
+            $query->whereHas('kategori', function ($query) use ($category) {
                 $query->where('slug', $category);
             });
         });
@@ -54,8 +54,8 @@ class Document extends Model
         return ucfirst($value);
     }
 
-    public function category()
+    public function kategori()
     {
-        return $this->belongsTo(Category::class);
+        return $this->belongsTo(Category::class, 'category_id');
     }
 }
