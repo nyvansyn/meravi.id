@@ -5,10 +5,10 @@
                 <div class="left-sidebar-content">
                     <ul class="sidebar-elements">
                         <li class="divider">Menu</li>
-                        <li class="active"><a href="index.html"><i
+                        <li class="active"><a href="{{ route('dashboard.index') }}"><i
                                     class="icon mdi mdi-home"></i><span>Dashboard</span></a>
                         </li>
-                        <li class="parent"><a href="#"><i class="icon mdi mdi-face"></i><span>UI
+                        {{-- <li class="parent"><a href="#"><i class="icon mdi mdi-face"></i><span>UI
                                     Elements</span></a>
                             <ul class="sub-menu">
                                 <li><a href="ui-alerts.html">Alerts</a>
@@ -44,21 +44,23 @@
                                             class="badge badge-primary float-right">New</span>Sweetalert 2</a>
                                 </li>
                             </ul>
-                        </li>
-                        <li class="parent"><a href="charts.html"><i
-                                    class="icon mdi mdi-chart-donut"></i><span>Charts</span></a>
+                        </li> --}}
+                        <li class="parent"><a href=""><i class="icon mdi mdi-file"></i><span>Dokumen</span></a>
                             <ul class="sub-menu">
-                                <li><a href="charts-flot.html">Flot</a>
+                                <li><a href="{{ route('admin.document.category') }}">Kategori</a>
                                 </li>
-                                <li><a href="charts-sparkline.html">Sparklines</a>
+                                <li><a href="{{ route('admin.document') }}">Dokumen</a>
                                 </li>
-                                <li><a href="charts-chartjs.html">Chart.js</a>
-                                </li>
-                                <li><a href="charts-morris.html">Morris.js</a>
-                                </li>
+
                             </ul>
                         </li>
-                        <li class="parent"><a href="#"><i
+                        <li class=""><a href=""><i
+                                    class="icon mdi mdi-book-image"></i><span>Portofolio</span></a>
+                        </li>
+                        <li class=""><a href=""><i
+                                    class="icon mdi mdi-comments"></i><span>Testimoni</span></a>
+                        </li>
+                        {{-- <li class="parent"><a href="#"><i
                                     class="icon mdi mdi-dot-circle"></i><span>Forms</span></a>
                             <ul class="sub-menu">
                                 <li><a href="form-elements.html">Elements</a>
@@ -246,7 +248,7 @@
                         </li>
                         <li><a href="documentation.html"><i
                                     class="icon mdi mdi-book"></i><span>Documentation</span></a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
             </div>
