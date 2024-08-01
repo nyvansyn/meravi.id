@@ -57,7 +57,7 @@
                         <li class=""><a href=""><i
                                     class="icon mdi mdi-book-image"></i><span>Portofolio</span></a>
                         </li>
-                        <li class=""><a href=""><i
+                        <li class=""><a href="{{ route('admin.testimonial') }}"><i
                                     class="icon mdi mdi-comments"></i><span>Testimoni</span></a>
                         </li>
                         {{-- <li class="parent"><a href="#"><i

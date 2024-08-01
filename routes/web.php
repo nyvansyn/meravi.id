@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DocumentController;
+use App\Http\Controllers\TestimonialController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -89,6 +90,15 @@ Route::group(['middleware' => ['auth']], function () {
                 Route::post('/update/{id}', [DocumentController::class, 'updateCategory'])->name('admin.document.category.update');
                 Route::post('/delete/{id}', [DocumentController::class, 'destroyCategory'])->name('admin.document.category.destroy');
             });
+        });
+
+        Route::group(['prefix' => '/testimonial'], function () {
+            Route::get('/', [TestimonialController::class, 'index'])->name('admin.testimonial');
+            Route::get('/create', [TestimonialController::class, 'create'])->name('admin.testimonial.create');
+            Route::post('/store', [TestimonialController::class, 'store'])->name('admin.testimonial.store');
+            Route::get('/edit/{id}', [TestimonialController::class, 'edit'])->name('admin.testimonial.edit');
+            Route::post('/update/{id}', [TestimonialController::class, 'update'])->name('admin.testimonial.update');
+            Route::post('/delete/{id}', [TestimonialController::class, 'destroy'])->name('admin.testimonial.destroy');
         });
     });
 });
