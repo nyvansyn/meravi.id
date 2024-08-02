@@ -4,9 +4,9 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="card card-table">
-                    <div class="card-header">List Kategori
+                    <div class="card-header">List Tag
                         <div class="tools dropdown">
-                            <a class="btn btn-space btn-primary" href="{{ route('admin.document.category.create') }}"><i
+                            <a class="btn btn-space btn-primary" href="{{ route('admin.post.tag.create') }}"><i
                                     class="icon mdi mdi-plus-square"></i>Tambah</a>
                         </div>
                     </div>
@@ -16,22 +16,23 @@
                                 <tr>
                                     <th>No</th>
                                     <th>Nama</th>
-                                    <th>Slug</th>
+                                    <th>Keywords</th>
+                                    <th>Meta Description</th>
                                     <th>Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($categories as $category)
+                                @foreach ($tags as $tag)
                                     <tr class="odd gradeX">
                                         <td>{{ $loop->index + 1 }}</td>
-                                        <td>{{ $category->name }}</td>
-                                        <td>{{ $category->slug }}</td>
+                                        <td>{{ $tag->name }}</td>
+                                        <td>{{ $tag->keywords }}</td>
+                                        <td>{{ $tag->meta_desc }}</td>
                                         <td class="actions d-flex">
                                             <a class="btn btn-space btn-warning"
-                                                href="{{ route('admin.document.category.edit', $category->id) }}"><i
+                                                href="{{ route('admin.post.tag.edit', $tag->id) }}"><i
                                                     class="icon mdi mdi-edit"></i></a>
-                                            <form action="{{ route('admin.document.category.destroy', $category->id) }}"
-                                                method="post">
+                                            <form action="{{ route('admin.post.tag.destroy', $tag->id) }}" method="post">
                                                 @csrf
                                                 @method('POST')
                                                 <button type="submit" class="btn btn-space btn-danger"><i

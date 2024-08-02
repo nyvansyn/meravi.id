@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CategoryPostController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DocumentController;
+use App\Http\Controllers\TagController;
 use App\Http\Controllers\TestimonialController;
 use Illuminate\Support\Facades\Route;
 
@@ -102,6 +103,7 @@ Route::group(['middleware' => ['auth']], function () {
             Route::post('/delete/{id}', [TestimonialController::class, 'destroy'])->name('admin.testimonial.destroy');
         });
 
+        // post
         Route::group(['prefix' => '/post'], function () {
             Route::get('/', [DocumentController::class, 'index'])->name('admin.document');
             Route::get('/create', [DocumentController::class, 'create'])->name('admin.document.create');
@@ -110,7 +112,7 @@ Route::group(['middleware' => ['auth']], function () {
             Route::post('/update/{id}', [DocumentController::class, 'update'])->name('admin.document.update');
             Route::post('/delete/{id}', [DocumentController::class, 'destroy'])->name('admin.document.destroy');
 
-            // document Category
+            // Category
             Route::group(['prefix' => '/category'], function () {
                 Route::get('/', [CategoryPostController::class, 'index'])->name('admin.post.category');
                 Route::get('/create', [CategoryPostController::class, 'create'])->name('admin.post.category.create');
@@ -118,6 +120,16 @@ Route::group(['middleware' => ['auth']], function () {
                 Route::get('/edit/{id}', [CategoryPostController::class, 'edit'])->name('admin.post.category.edit');
                 Route::post('/update/{id}', [CategoryPostController::class, 'update'])->name('admin.post.category.update');
                 Route::post('/delete/{id}', [CategoryPostController::class, 'destroy'])->name('admin.post.category.destroy');
+            });
+
+            // Tag
+            Route::group(['prefix' => '/tag'], function () {
+                Route::get('/', [TagController::class, 'index'])->name('admin.post.tag');
+                Route::get('/create', [TagController::class, 'create'])->name('admin.post.tag.create');
+                Route::post('/store', [TagController::class, 'store'])->name('admin.post.tag.store');
+                Route::get('/edit/{id}', [TagController::class, 'edit'])->name('admin.post.tag.edit');
+                Route::post('/update/{id}', [TagController::class, 'update'])->name('admin.post.tag.update');
+                Route::post('/delete/{id}', [TagController::class, 'destroy'])->name('admin.post.tag.destroy');
             });
         });
     });

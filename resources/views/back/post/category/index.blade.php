@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="card card-table">
-                    <div class="card-header">List Member
+                    <div class="card-header">List Kategori Post
                         <div class="tools dropdown">
                             <a class="btn btn-space btn-primary" href="{{ route('admin.post.category.create') }}"><i
                                     class="icon mdi mdi-plus-square"></i>Tambah</a>

@@ -62,10 +62,11 @@
                         </li>
 
                         <li class="divider">Blog</li>
-                        <li class=""><a href="{{ route('admin.testimonial') }}"><i
+                        <li class=""><a href="{{ route('admin.post.category') }}"><i
                                     class="icon mdi mdi-collection-plus"></i><span>Kategori</span></a>
                         </li>
-                        <li class=""><a href=""><i class="icon mdi mdi-tag"></i><span>Tag</span></a>
+                        <li class=""><a href="{{ route('admin.post.tag') }}"><i
+                                    class="icon mdi mdi-tag"></i><span>Tag</span></a>
                         </li>
                         <li class=""><a href=""><i class="icon mdi mdi-blogger"></i><span>Post</span></a>
                         </li>
