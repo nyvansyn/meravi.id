@@ -19,9 +19,10 @@
     <link rel="stylesheet" type="text/css"
         href="{{ asset('back/assets/lib/datetimepicker/css/bootstrap-datetimepicker.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('back/assets/css/app.css') }}" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="assets/lib/datatables/datatables.net-bs4/dataTables.bootstrap4.css" />
     <link rel="stylesheet" type="text/css"
-        href="assets/lib/datatables/datatables.net-responsive-bs4/responsive.bootstrap4.min.css" />
+        href="{{ asset('back/assets/lib/datatables/datatables.net-bs4/dataTables.bootstrap4.css') }}" />
+    <link rel="stylesheet" type="text/css"
+        href="{{ asset('back/assets/lib/datatables/datatables.net-responsive-bs4/responsive.bootstrap4.min.css') }}" />
 </head>
 
 <body>
