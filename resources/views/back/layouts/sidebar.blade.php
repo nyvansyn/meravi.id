@@ -60,6 +60,15 @@
                         <li class=""><a href="{{ route('admin.testimonial') }}"><i
                                     class="icon mdi mdi-comments"></i><span>Testimoni</span></a>
                         </li>
+
+                        <li class="divider">Blog</li>
+                        <li class=""><a href="{{ route('admin.testimonial') }}"><i
+                                    class="icon mdi mdi-collection-plus"></i><span>Kategori</span></a>
+                        </li>
+                        <li class=""><a href=""><i class="icon mdi mdi-tag"></i><span>Tag</span></a>
+                        </li>
+                        <li class=""><a href=""><i class="icon mdi mdi-blogger"></i><span>Post</span></a>
+                        </li>
                         {{-- <li class="parent"><a href="#"><i
                                     class="icon mdi mdi-dot-circle"></i><span>Forms</span></a>
                             <ul class="sub-menu">

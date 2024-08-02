@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CategoryPostController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DocumentController;
 use App\Http\Controllers\TestimonialController;
@@ -72,7 +73,7 @@ Route::group(['middleware' => ['auth']], function () {
         Route::resource('dashboard', DashboardController::class);
         Route::get('/member', [DashboardController::class, 'user'])->name('user');
 
-        //Archive
+        //document
         Route::group(['prefix' => '/document'], function () {
             Route::get('/', [DocumentController::class, 'index'])->name('admin.document');
             Route::get('/create', [DocumentController::class, 'create'])->name('admin.document.create');
@@ -99,6 +100,25 @@ Route::group(['middleware' => ['auth']], function () {
             Route::get('/edit/{id}', [TestimonialController::class, 'edit'])->name('admin.testimonial.edit');
             Route::post('/update/{id}', [TestimonialController::class, 'update'])->name('admin.testimonial.update');
             Route::post('/delete/{id}', [TestimonialController::class, 'destroy'])->name('admin.testimonial.destroy');
+        });
+
+        Route::group(['prefix' => '/post'], function () {
+            Route::get('/', [DocumentController::class, 'index'])->name('admin.document');
+            Route::get('/create', [DocumentController::class, 'create'])->name('admin.document.create');
+            Route::post('/store', [DocumentController::class, 'store'])->name('admin.document.store');
+            Route::get('/edit/{id}', [DocumentController::class, 'edit'])->name('admin.document.edit');
+            Route::post('/update/{id}', [DocumentController::class, 'update'])->name('admin.document.update');
+            Route::post('/delete/{id}', [DocumentController::class, 'destroy'])->name('admin.document.destroy');
+
+            // document Category
+            Route::group(['prefix' => '/category'], function () {
+                Route::get('/', [CategoryPostController::class, 'index'])->name('admin.post.category');
+                Route::get('/create', [CategoryPostController::class, 'create'])->name('admin.post.category.create');
+                Route::post('/store', [CategoryPostController::class, 'store'])->name('admin.post.category.store');
+                Route::get('/edit/{id}', [CategoryPostController::class, 'edit'])->name('admin.post.category.edit');
+                Route::post('/update/{id}', [CategoryPostController::class, 'update'])->name('admin.post.category.update');
+                Route::post('/delete/{id}', [CategoryPostController::class, 'destroy'])->name('admin.post.category.destroy');
+            });
         });
     });
 });
