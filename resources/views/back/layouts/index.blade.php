@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/img/logo-fav.png">
-    <title>Beagle</title>
+    <title>Meravi.id | Dashboard Admin</title>
     <link rel="stylesheet" type="text/css"
         href="{{ asset('back/assets/lib/perfect-scrollbar/css/perfect-scrollbar.css') }}" />
     <link rel="stylesheet" type="text/css"
