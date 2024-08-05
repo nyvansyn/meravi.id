@@ -23,6 +23,9 @@
         href="{{ asset('back/assets/lib/datatables/datatables.net-bs4/dataTables.bootstrap4.css') }}" />
     <link rel="stylesheet" type="text/css"
         href="{{ asset('back/assets/lib/datatables/datatables.net-responsive-bs4/responsive.bootstrap4.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('back/assets/lib/summernote/summernote-bs4.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('back/assets/lib/select2/css/select2.min.css') }}" />
+    @stack('css')
 </head>
 
 <body>
@@ -74,11 +77,14 @@
         type="text/javascript"></script>
     <script src="{{ asset('back/assets/lib/datatables/datatables.net-responsive-bs4/responsive.bootstrap4.min.js') }}"
         type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/summernote/summernote-bs4.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('back/assets/lib/summernote/summernote-ext-beagle.js') }}" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             //-initialize the javascript
             App.init();
             App.dashboard();
+            App.textEditors();
         });
     </script>
     @stack('js')

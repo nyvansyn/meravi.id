@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CategoryPostController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DocumentController;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\TagController;
 use App\Http\Controllers\TestimonialController;
 use Illuminate\Support\Facades\Route;
@@ -105,12 +106,16 @@ Route::group(['middleware' => ['auth']], function () {
 
         // post
         Route::group(['prefix' => '/post'], function () {
-            Route::get('/', [DocumentController::class, 'index'])->name('admin.document');
-            Route::get('/create', [DocumentController::class, 'create'])->name('admin.document.create');
-            Route::post('/store', [DocumentController::class, 'store'])->name('admin.document.store');
-            Route::get('/edit/{id}', [DocumentController::class, 'edit'])->name('admin.document.edit');
-            Route::post('/update/{id}', [DocumentController::class, 'update'])->name('admin.document.update');
-            Route::post('/delete/{id}', [DocumentController::class, 'destroy'])->name('admin.document.destroy');
+            Route::get('/', [PostController::class, 'index'])->name('admin.post');
+            Route::get('/create', [PostController::class, 'create'])->name('admin.post.create');
+            Route::post('/store', [PostController::class, 'store'])->name('admin.post.store');
+            Route::get('/edit/{id}', [PostController::class, 'edit'])->name('admin.post.edit');
+            Route::post('/update/{id}', [PostController::class, 'update'])->name('admin.post.update');
+            Route::post('/delete/{id}', [PostController::class, 'destroy'])->name('admin.post.destroy');
+            // Route::get('posts/trash', [PostController::class, 'trash'])->name('posts.trash');
+            // Route::post('posts/trash/{id}/restore', [PostController::class, 'restore'])->name('posts.restore');
+            // Route::delete('posts/{id}/delete-permanent', [PostController::class, 'deletePermanent'])->name('posts.deletePermanent');
+
 
             // Category
             Route::group(['prefix' => '/category'], function () {
