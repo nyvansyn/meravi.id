@@ -99,7 +99,7 @@
                                     <div class="col-sm-12">
                                         <p class="text-right">
                                             <button class="btn btn-space btn-danger" type="submit">Simpan</button>
-                                            <a href="{{ route('admin.document') }}"
+                                            <a href="{{ route('admin.post') }}"
                                                 class="btn btn-space btn-secondary">Cancel</a>
                                         </p>
                                     </div>

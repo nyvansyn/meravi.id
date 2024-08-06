@@ -39,39 +39,42 @@
                     </div>
                 </div>
                 <div class="row align-items-center justify-content-center">
-                    <div
-                        class="col-lg-4 col-md-6 col-12 d-flex justify-content-center wow img-custom-anim-top pb-10 pb-lg-0 mt-5">
-                        <div class="position-relative z-2 w-400">
-                            <div class="zoom-img">
-                                <img src="{{ asset('front/assets/images/page-blog/section-2/img-1.png') }}"
-                                    alt="abon" />
-                            </div>
-                            <div class="card-hover">
-                                <div
-                                    class="title-news position-absolute top-100 start-50 translate-middle bg-white shadow-sm">
-                                    <div class="position-relative p-4">
-                                        <div class="left-20 position-absolute top-0 translate-middle">
-                                            <p class="text-white bg-black p-1 fs-6"><a class="text-white"
-                                                    href="page-blog.html">Technology</a></p>
+                    @foreach ($posts as $post)
+                        <div
+                            class="col-lg-4 col-md-6 col-12 d-flex justify-content-center wow img-custom-anim-top pb-10 pb-lg-0 mt-5">
+                            <div class="position-relative z-2 w-400">
+                                <div class="zoom-img">
+                                    <img src="{{ asset('back/assets/img/article/' . $post->cover) }}" alt="abon" />
+                                </div>
+                                <div class="card-hover">
+                                    <div
+                                        class="title-news position-absolute top-100 start-50 translate-middle bg-white shadow-sm">
+                                        <div class="position-relative p-4">
+                                            <div class="left-20 position-absolute top-0 translate-middle">
+                                                <p class="text-white bg-black p-1 fs-6"><a class="text-white"
+                                                        href="">{{ $post->category->name }}</a></p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="text-primary fs-6">{{ $post->created_at->format('d M Y ') }}</p>
+                                                <span class="px-2 text-secondary">/</span>
+                                                <p class="text-secondary fs-6">By: <span
+                                                        class="text-black">{{ $post->user->name }}</span>
+                                                </p>
+                                            </div>
+                                            <h4 class="text-black fs-4 border-bottom pb-4"><a class="text-dark"
+                                                    href="page-blog-details.html">{{ $post->title }}</a></h4>
+                                            <a href="page-blog-details.html"
+                                                class="text-primary fw-medium pt-2 d-lg-inline-block"><i
+                                                    class="bi bi-arrow-right me-2"></i>Read More</a>
                                         </div>
-                                        <div class="d-flex">
-                                            <p class="text-primary fs-6">January 15, 2024</p>
-                                            <span class="px-2 text-secondary">/</span>
-                                            <p class="text-secondary fs-6">By: <span class="text-black">Alice Johnson</span>
-                                            </p>
-                                        </div>
-                                        <h4 class="text-black fs-4 border-bottom pb-4"><a class="text-dark"
-                                                href="page-blog-details.html">Weathering Financial Storms: Resilience in
-                                                Uncertain Times</a></h4>
-                                        <a href="page-blog-details.html"
-                                            class="text-primary fw-medium pt-2 d-lg-inline-block"><i
-                                                class="bi bi-arrow-right me-2"></i>Read More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div
+                    @endforeach
+
+
+                    {{-- <div
                         class="col-lg-4 col-md-6 col-12 d-flex justify-content-center wow img-custom-anim-top pb-10 pb-lg-0 mt-5">
                         <div class="position-relative z-2 w-400">
                             <div class="zoom-img">
@@ -422,35 +425,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="row justify-content-center mt-8">
                     <div class="col-4 d-flex justify-content-center">
                         <div>
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination gap-2">
-                                    <li class="page-item">
-                                        <a class="icon-xxl page-link pagination_item border rounded-circle icon-shape fw-bold text-reset"
-                                            href="#" aria-label="Previous"><i class="bi bi-chevron-left"></i></a>
-                                    </li>
-                                    <li class="page-item"><a
-                                            class="icon-xxl page-link pagination_item border rounded-circle icon-shape fw-bold text-reset"
-                                            href="#">1</a></li>
-                                    <li class="page-item"><a
-                                            class="icon-xxl page-link pagination_item border rounded-circle icon-shape fw-bold text-reset"
-                                            href="#">2</a></li>
-                                    <li class="page-item"><a
-                                            class="icon-xxl page-link pagination_item border rounded-circle icon-shape fw-bold text-reset"
-                                            href="#">3</a></li>
-                                    <li class="page-item"><a
-                                            class="icon-xxl page-link pagination_item border rounded-circle icon-shape fw-bold text-reset"
-                                            href="#">...</a></li>
-                                    <li class="page-item">
-                                        <a class="icon-xxl page-link pagination_item border rounded-circle icon-shape fw-bold text-reset"
-                                            href="#" aria-label="Next"><i class="bi bi-chevron-right"></i></a>
-                                    </li>
-                                </ul>
-                            </nav>
+                            {{-- {{ $posts->links() }} --}}
+                            {{ $posts->links('vendor.pagination.custom') }}
                         </div>
                     </div>
                 </div>

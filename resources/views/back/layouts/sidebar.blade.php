@@ -71,7 +71,8 @@
                         <li class=""><a href="{{ route('admin.post.tag') }}"><i
                                     class="icon mdi mdi-tag"></i><span>Tag</span></a>
                         </li>
-                        <li class=""><a href=""><i class="icon mdi mdi-blogger"></i><span>Post</span></a>
+                        <li class=""><a href="{{ route('admin.post') }}"><i
+                                    class="icon mdi mdi-blogger"></i><span>Post</span></a>
                         </li>
                         {{-- <li class="parent"><a href="#"><i
                                     class="icon mdi mdi-dot-circle"></i><span>Forms</span></a>

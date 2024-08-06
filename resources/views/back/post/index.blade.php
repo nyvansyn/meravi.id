@@ -6,7 +6,7 @@
                 <div class="card card-table">
                     <div class="card-header">List Dokumen
                         <div class="tools dropdown">
-                            <a class="btn btn-space btn-primary" href="{{ route('admin.document.create') }}"><i
+                            <a class="btn btn-space btn-primary" href="{{ route('admin.post.create') }}"><i
                                     class="icon mdi mdi-plus-square"></i>Tambah</a>
                         </div>
                     </div>
@@ -21,7 +21,7 @@
                                     <th>Judul</th>
                                     <th>Keywords</th>
                                     <th>Meta deskripsi</th>
-                                    <th>Konten</th>
+                                    {{-- <th>Konten</th> --}}
                                     <th>Aksi</th>
                                 </tr>
                             </thead>
@@ -41,7 +41,7 @@
                                         <td>{{ $post->title }}</td>
                                         <td>{{ $post->keywords }}</td>
                                         <td>{{ $post->meta_desc }}</td>
-                                        <td>{!! $post->desc !!}</td>
+                                        {{-- <td>{!! $post->desc !!}</td> --}}
                                         <td class="actions d-flex">
                                             <a class="btn btn-space btn-warning"
                                                 href="{{ route('admin.post.edit', $post->id) }}"><i
