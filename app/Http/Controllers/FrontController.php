@@ -44,7 +44,7 @@ class FrontController extends Controller
 
     public function blog()
     {
-        $posts = Post::latest()->paginate(1);
+        $posts = Post::latest()->paginate(9);
         return view('front.blog.index', compact('posts'));
     }
 
@@ -57,8 +57,9 @@ class FrontController extends Controller
             ->orWhere('desc', 'LIKE', '%' . $search . '%');
         $posts = $posts->latest()->paginate(6);
 
-        return view('post.search', [
+        return view('front.blog.search', [
             'posts' => $posts,
+            'search' => $search,
         ]);
     }
 }

@@ -33,6 +33,7 @@ Route::get('/portofolio', [FrontController::class, 'portofolio'])->name('portofo
 Route::get('/download', [DocumentController::class, 'show']);
 Route::get('download/{documents}', [DocumentController::class, 'download'])->middleware('auth');
 Route::get('/blog', [FrontController::class, 'blog'])->name('blog');
+Route::get('/blog/search', [FrontController::class, 'search'])->name('search');
 
 // Route::get('/dashboard', function () {
 //     return view('back.dashboard');

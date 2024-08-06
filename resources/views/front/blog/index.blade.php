@@ -23,10 +23,10 @@
             <div class="container pt-10 pb-10">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3 mb-6 wow img-custom-anim-left">
-                        <form class="position-relative blog-search-form">
+                        <form class="position-relative blog-search-form" action="{{ route('search') }}" method="GET">
                             <label for="searchInput" class="form-label visually-hidden">Search</label>
-                            <input type="search" class="form-control ps-7 rounded-pill bg-secondary-1 fs-5"
-                                placeholder="What are you looking for?" id="searchInput" />
+                            <input name="search" type="search" class="form-control ps-7 rounded-pill bg-secondary-1 fs-5"
+                                placeholder="What are you looking for?" id="searchInput" required />
                             <button type="submit" class="btn position-absolute top-50 translate-middle-y ms-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-search" viewBox="0 0 16 16">
