@@ -247,7 +247,7 @@ class PostController extends Controller
     private function deleteBlogImage($post)
     {
         if ($post->cover) {
-            $imgDestroy = 'back/assets/img/article' . $post->cover;
+            $imgDestroy = 'back/assets/img/article/' . $post->cover;
             if (File::exists($imgDestroy)) {
                 File::delete($imgDestroy);
             }

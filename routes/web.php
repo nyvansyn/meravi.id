@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CategoryPostController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DocumentController;
+use App\Http\Controllers\FrontController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\TagController;
 use App\Http\Controllers\TestimonialController;
@@ -24,25 +25,14 @@ Route::get('/', function () {
     return view('front.index');
 });
 
-Route::get('/tentang-kami', function () {
-    return view('front.about');
-});
-Route::get('/bumdes', function () {
-    return view('front.program.bumdes');
-});
-Route::get('/umkm', function () {
-    return view('front.program.umkm');
-});
-Route::get('/mitra', function () {
-    return view('front.client');
-});
-Route::get('/portofolio', function () {
-    return view('front.portofolio');
-});
-
-// Route::get('/dokumen', function () {
-//     return view('front.document');
-// });
+Route::get('/tentang-kami', [FrontController::class, 'about'])->name('about');
+Route::get('/bumdes', [FrontController::class, 'bumdes'])->name('bumdes');
+Route::get('/umkm', [FrontController::class, 'umkm'])->name('umkm');
+Route::get('/mitra', [FrontController::class, 'mitra'])->name('mitra');
+Route::get('/portofolio', [FrontController::class, 'portofolio'])->name('portofolio');
+Route::get('/download', [DocumentController::class, 'show']);
+Route::get('download/{documents}', [DocumentController::class, 'download'])->middleware('auth');
+Route::get('/blog', [FrontController::class, 'blog'])->name('blog');
 
 // Route::get('/dashboard', function () {
 //     return view('back.dashboard');
@@ -59,9 +49,6 @@ Route::get('/daftar', function () {
 Route::get('/banner', function () {
     return view('back.banner.index');
 });
-
-Route::get('/download', [DocumentController::class, 'show']);
-Route::get('download/{documents}', [DocumentController::class, 'download'])->middleware('auth');
 
 Route::get('login', [AuthController::class, 'index'])->name('login');
 Route::get('register', [AuthController::class, 'register'])->name('register');

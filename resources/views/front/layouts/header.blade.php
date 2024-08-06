@@ -120,11 +120,11 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link fw-medium" href="#">Download</a>
+                                <a class="nav-link fw-medium" href="{{ url('/download') }}">Download</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link fw-medium" href="#">Blog</a>
+                                <a class="nav-link fw-medium" href="{{ url('blog') }}">Blog</a>
                             </li>
 
                         </ul>
