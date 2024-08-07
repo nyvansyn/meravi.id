@@ -39,7 +39,7 @@
                     </div>
                 </div> --}}
                 <div class="row align-items-center justify-content-center">
-                    @foreach ($posts as $post)
+                    @forelse ($posts as $post)
                         <div
                             class="col-lg-4 col-md-6 col-12 d-flex justify-content-center wow img-custom-anim-top pb-10 pb-lg-0 mt-5">
                             <div class="position-relative z-2 w-400">
@@ -71,7 +71,11 @@
                                 </div>
                             </div>
                         </div>
-                    @endforeach
+                    @empty
+                        <div class="col-12 d-flex justify-content-center wow img-custom-anim-top pb-10 pb-lg-0 mt-5">
+                            tidak di temukan
+                        </div>
+                    @endforelse
                 </div>
                 <div class="row justify-content-center mt-8">
                     <div class="col-4 d-flex justify-content-center">

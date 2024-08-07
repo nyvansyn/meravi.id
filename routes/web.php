@@ -34,9 +34,11 @@ Route::get('/download', [DocumentController::class, 'show']);
 Route::get('download/{documents}', [DocumentController::class, 'download'])->middleware('auth');
 Route::get('/blog', [FrontController::class, 'blog'])->name('blog');
 Route::get('/blog/search', [FrontController::class, 'search'])->name('search');
+Route::get('/blog/{slug}', [FrontController::class, 'blogShow'])->name('blog.show');
+Route::get('/blog/kategori/{slug}', [FrontController::class, 'blogShow']);
 
-// Route::get('/dashboard', function () {
-//     return view('back.dashboard');
+// Route::get('/blog/detail', function () {
+//     return view('front.blog.show');
 // });
 
 Route::get('/masuk', function () {

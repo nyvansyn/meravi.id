@@ -44,7 +44,8 @@
                             class="col-lg-4 col-md-6 col-12 d-flex justify-content-center wow img-custom-anim-top pb-10 pb-lg-0 mt-5">
                             <div class="position-relative z-2 w-400">
                                 <div class="zoom-img">
-                                    <img src="{{ asset('back/assets/img/article/' . $post->cover) }}" alt="abon" />
+                                    <img src="{{ asset('back/assets/img/article/' . $post->cover) }}"
+                                        alt="{{ $post->slug }}" />
                                 </div>
                                 <div class="card-hover">
                                     <div
@@ -62,8 +63,8 @@
                                                 </p>
                                             </div>
                                             <h4 class="text-black fs-4 border-bottom pb-4"><a class="text-dark"
-                                                    href="page-blog-details.html">{{ $post->title }}</a></h4>
-                                            <a href="page-blog-details.html"
+                                                    href="{{ route('blog.show', $post->slug) }}">{{ $post->title }}</a></h4>
+                                            <a href="{{ route('blog.show', $post->slug) }}" target="_blank"
                                                 class="text-primary fw-medium pt-2 d-lg-inline-block"><i
                                                     class="bi bi-arrow-right me-2"></i>Read More</a>
                                         </div>
