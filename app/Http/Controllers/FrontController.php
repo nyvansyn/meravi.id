@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\CategoryPost;
+use App\Models\Portofolio;
 use App\Models\Post;
 use App\Models\Tag;
 use Illuminate\Http\Request;
@@ -42,7 +43,8 @@ class FrontController extends Controller
 
     public function portofolio()
     {
-        return view('front.portofolio');
+        $portofolios = Portofolio::latest()->paginate('6');
+        return view('front.portofolio', compact('portofolios'));
     }
 
     public function blog()

@@ -87,7 +87,7 @@ Route::group(['middleware' => ['auth']], function () {
             });
         });
 
-        Route::group(['prefix' => '/portofolio'], function () {
+        Route::group(['prefix' => '/portofolios'], function () {
             Route::get('/', [PortofolioController::class, 'index'])->name('admin.portofolio');
             Route::get('/create', [PortofolioController::class, 'create'])->name('admin.portofolio.create');
             Route::post('/store', [PortofolioController::class, 'store'])->name('admin.portofolio.store');
