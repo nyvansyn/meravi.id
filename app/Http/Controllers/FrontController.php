@@ -82,7 +82,7 @@ class FrontController extends Controller
             ->groupBy('category_id')
             ->get();
 
-        // $kategori = CategoryPost::where('slug', $slug)->first();
+
 
         $search = $request->input('search');
 
@@ -99,5 +99,27 @@ class FrontController extends Controller
         $relatedPost = Post::where('category_id', $post->category_id)->orderBy('id', 'desc')->take(6)->get();
 
         return view('front.blog.show', compact('post', 'next', 'previous', 'categories', 'posts', 'recents', 'tags', 'relatedPost'));
+    }
+
+    public function category(Request $request, $slug)
+    {
+        $categories = CategoryPost::where('slug', $slug)->first();
+
+        $search = $request->input('search');
+
+        $posts = Post::query()
+            ->where('title', 'LIKE', '%' . $search . '%')
+            ->orWhere('desc', 'LIKE', '%' . $search . '%');
+
+        $posts = $posts->latest()->paginate(6);
+
+        $productCategory = Post::join('category_posts', 'category_posts.id', '=', 'posts.category_id')
+            ->join('users', 'users.id', '=', 'posts.user_id')
+            ->where('category_posts.slug', $slug)
+            ->select('posts.title', 'posts.cover', 'posts.created_at', 'posts.slug as post_slug', 'category_posts.name as category_name', 'users.name as user_name')
+            // ->get(['posts.title', 'posts.cover', 'posts.created_at', 'posts.slug as post_slug', 'category_posts.name', 'users.name'])
+            ->paginate(6);
+
+        return view('front.blog.category', compact('categories', 'productCategory', 'posts'));
     }
 }

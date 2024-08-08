@@ -21,7 +21,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts = Post::all();
+        $posts = Post::latest()->get();
         return view('back.post.index', ['posts' => $posts]);
     }
 
@@ -177,7 +177,7 @@ class PostController extends Controller
             list($type, $data) = explode(';', $data);
             list(, $data)      = explode(',', $data);
             $imgeData = base64_decode($data);
-            $image_name = "/back/assets/img/article/" . time() . $item . '.png|.webp|.jpg|.jpeg|.svg';
+            $image_name = "/back/assets/img/article/" . time() . $item . '.png';
             $path = public_path() . $image_name;
             file_put_contents($path, $imgeData);
 

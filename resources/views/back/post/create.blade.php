@@ -7,9 +7,9 @@
     <div class="be-contents">
         <div class="main-content container-fluid">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="card card-border-color card-border-color-danger">
-                        <div class="card-header card-header-divider">Form<span class="card-subtitle">Tambah dokumen</span>
+                        <div class="card-header card-header-divider">Form<span class="card-subtitle">Tambah Artikel</span>
                         </div>
                         <div class="card-body">
                             <form action="{{ route('admin.post.store') }}" method="POST" enctype="multipart/form-data">
@@ -60,7 +60,7 @@
                                 <div class="form-group pt-2">
                                     <label for="desc">Konten</label>
                                     <textarea class="form-control @error('desc') is-invalid @enderror" name="desc" id="editor1" cols="30"
-                                        rows="10"></textarea>
+                                        rows="15"></textarea>
                                     @if ($errors->has('desc'))
                                         <span class="text-danger">{{ $errors->first('desc') }}</span>
                                     @endif

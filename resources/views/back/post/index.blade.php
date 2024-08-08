@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="card card-table">
-                    <div class="card-header">List Dokumen
+                    <div class="card-header">List Post Artikel
                         <div class="tools dropdown">
                             <a class="btn btn-space btn-primary" href="{{ route('admin.post.create') }}"><i
                                     class="icon mdi mdi-plus-square"></i>Tambah</a>
@@ -35,7 +35,7 @@
                                         <td>{{ $post->category->name }}</td>
                                         <td>
                                             @foreach ($post->tags as $tag)
-                                                <span class="badge badge-success">{{ $tag->name }}</span>
+                                                <span class="badge badge-success m-1">{{ $tag->name }}</span>
                                             @endforeach
                                         </td>
                                         <td>{{ $post->title }}</td>

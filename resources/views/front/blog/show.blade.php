@@ -149,7 +149,8 @@
                             <h6 class="fs-2">Categories</h6>
                             <ul class="ps-3">
                                 @foreach ($categories as $category)
-                                    <li class="text-reset mt-2"><a class="text-reset">{{ $category->category->name }}
+                                    <li class="text-reset mt-2"><a href="/blog/kategori/{{ $category->category->slug }}"
+                                            class="text-reset">{{ $category->category->name }}
                                             ({{ $category->count }})
                                         </a></li>
                                     {{-- <li><a href="/artikel/kategori/{{ $data->slug }}">{{ $data->title }}</a><span>({{ $data->posts_count }})</span></li> --}}
