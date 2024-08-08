@@ -5,6 +5,7 @@ use App\Http\Controllers\CategoryPostController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DocumentController;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\PortofolioController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\TagController;
 use App\Http\Controllers\TestimonialController;
@@ -36,6 +37,7 @@ Route::get('/blog', [FrontController::class, 'blog'])->name('blog');
 Route::get('/blog/search', [FrontController::class, 'search'])->name('search');
 Route::get('/blog/{slug}', [FrontController::class, 'blogShow'])->name('blog.show');
 Route::get('/blog/kategori/{slug}', [FrontController::class, 'category'])->name('blog.category');
+Route::get('/blog/tag/{slug}', [FrontController::class, 'tag'])->name('blog.tag');
 
 // Route::get('/blog/detail', function () {
 //     return view('front.blog.show');
@@ -83,6 +85,15 @@ Route::group(['middleware' => ['auth']], function () {
                 Route::post('/update/{id}', [DocumentController::class, 'updateCategory'])->name('admin.document.category.update');
                 Route::post('/delete/{id}', [DocumentController::class, 'destroyCategory'])->name('admin.document.category.destroy');
             });
+        });
+
+        Route::group(['prefix' => '/portofolio'], function () {
+            Route::get('/', [PortofolioController::class, 'index'])->name('admin.portofolio');
+            Route::get('/create', [PortofolioController::class, 'create'])->name('admin.portofolio.create');
+            Route::post('/store', [PortofolioController::class, 'store'])->name('admin.portofolio.store');
+            Route::get('/edit/{id}', [PortofolioController::class, 'edit'])->name('admin.portofolio.edit');
+            Route::post('/update/{id}', [PortofolioController::class, 'update'])->name('admin.portofolio.update');
+            Route::post('/delete/{id}', [PortofolioController::class, 'destroy'])->name('admin.portofolio.destroy');
         });
 
         Route::group(['prefix' => '/testimonial'], function () {

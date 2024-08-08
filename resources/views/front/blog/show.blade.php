@@ -178,6 +178,7 @@
 
                             <h6 class="fs-2 mt-5">Tags</h6>
                             @foreach ($tags as $tag)
+                                </a></li>
                                 <a class="icon-shape bg-secondary-1 btn-lift px-3 mb-2 rounded-pill">
                                     <p class="d-flex align-items-center my-2 text-dark fs-5 fw-normal">#
                                         {{ $tag->name }}</p>

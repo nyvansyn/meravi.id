@@ -113,13 +113,37 @@ class FrontController extends Controller
 
         $posts = $posts->latest()->paginate(6);
 
-        $productCategory = Post::join('category_posts', 'category_posts.id', '=', 'posts.category_id')
+        $postCategory = Post::join('category_posts', 'category_posts.id', '=', 'posts.category_id')
             ->join('users', 'users.id', '=', 'posts.user_id')
             ->where('category_posts.slug', $slug)
             ->select('posts.title', 'posts.cover', 'posts.created_at', 'posts.slug as post_slug', 'category_posts.name as category_name', 'users.name as user_name')
-            // ->get(['posts.title', 'posts.cover', 'posts.created_at', 'posts.slug as post_slug', 'category_posts.name', 'users.name'])
             ->paginate(6);
 
-        return view('front.blog.category', compact('categories', 'productCategory', 'posts'));
+        return view('front.blog.category', compact('categories', 'postCategory', 'posts'));
+    }
+
+    public function tag(Request $request, $slug)
+    {
+        $tags = Tag::where('slug', $slug)->first();
+
+        $search = $request->input('search');
+
+        $posts = Post::query()
+            ->where('title', 'LIKE', '%' . $search . '%')
+            ->orWhere('desc', 'LIKE', '%' . $search . '%');
+
+        $posts = $posts->latest()->paginate(6);
+
+        //$tagJoin = Tag::join('post_tag', 'post_tag.tag_id', '=','tags.id')->select('tags.name as tag_name')->get();
+
+        $postTag = Post::join('post_tag', 'post_tag.post_id', '=', 'posts.id')
+            // ->join('tags', 'tags.id', '=', 'post_tag.tag.id')    
+            ->join('users', 'users.id', '=', 'posts.user_id')
+            // ->where('tags.slug', $slug)
+            ->select('posts.title', 'posts.cover', 'posts.created_at', 'posts.slug as post_slug', 'users.name as user_name')
+            ->paginate(6);
+
+
+        return view('front.blog.tag', compact('tags', 'postTag', 'posts'));
     }
 }

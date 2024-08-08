@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="row align-items-center justify-content-center">
-                    @foreach ($postCategory as $post)
+                    @foreach ($postTag as $post)
                         <div
                             class="col-lg-4 col-md-6 col-12 d-flex justify-content-center wow img-custom-anim-top pb-10 pb-lg-0 mt-5">
                             <div class="position-relative z-2 w-400">
@@ -53,7 +53,7 @@
                                         <div class="position-relative p-4">
                                             <div class="left-20 position-absolute top-0 translate-middle">
                                                 <p class="text-white bg-black p-1 fs-6"><a class="text-white"
-                                                        href="">{{ $post->category_name }}</a></p>
+                                                        href="">{{ $post->tag_name }}</a></p>
                                             </div>
                                             <div class="d-flex">
                                                 <p class="text-primary fs-6">{{ $post->created_at->format('d M Y ') }}</p>
@@ -79,7 +79,7 @@
                     <div class="col-4 d-flex justify-content-center">
                         <div>
                             {{-- {{ $posts->links() }} --}}
-                            {{ $postCategory->links('vendor.pagination.custom') }}
+                            {{ $postTag->links('vendor.pagination.custom') }}
                         </div>
                     </div>
                 </div>
