@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\BannerController;
 use App\Http\Controllers\CategoryPostController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DocumentController;
@@ -85,6 +86,15 @@ Route::group(['middleware' => ['auth']], function () {
                 Route::post('/update/{id}', [DocumentController::class, 'updateCategory'])->name('admin.document.category.update');
                 Route::post('/delete/{id}', [DocumentController::class, 'destroyCategory'])->name('admin.document.category.destroy');
             });
+        });
+
+        Route::group(['prefix' => '/banner'], function () {
+            Route::get('/', [BannerController::class, 'index'])->name('admin.banner');
+            Route::get('/create', [BannerController::class, 'create'])->name('admin.banner.create');
+            Route::post('/store', [BannerController::class, 'store'])->name('admin.banner.store');
+            Route::get('/edit/{id}', [BannerController::class, 'edit'])->name('admin.banner.edit');
+            Route::post('/update/{id}', [BannerController::class, 'update'])->name('admin.banner.update');
+            Route::post('/delete/{id}', [BannerController::class, 'destroy'])->name('admin.banner.destroy');
         });
 
         Route::group(['prefix' => '/portofolios'], function () {

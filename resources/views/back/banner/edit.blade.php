@@ -15,26 +15,35 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="card card-border-color card-border-color-danger">
-                        <div class="card-header card-header-divider">Form<span class="card-subtitle">Edit Portofolio</span>
+                        <div class="card-header card-header-divider">Form<span class="card-subtitle">Edit Banner</span>
                         </div>
                         <div class="card-body">
-                            <form action="{{ route('admin.portofolio.update', $portofolio->id) }}" method="POST"
+                            <form action="{{ route('admin.banner.update', $banner->id) }}" method="POST"
                                 enctype="multipart/form-data">
                                 @csrf
 
                                 <div class="form-group pt-2">
-                                    <label for="title">Judul</label>
-                                    <input class="form-control @error('title') is-invalid @enderror" id="title"
-                                        name="title" value="{{ $portofolio->title }}" type="text" placeholder="Judul">
-                                    @if ($errors->has('title'))
-                                        <span class="text-danger">{{ $errors->first('title') }}</span>
+                                    <label for="name">Judul</label>
+                                    <input class="form-control @error('name') is-invalid @enderror" id="name"
+                                        name="name" value="{{ $banner->name }}" type="text" placeholder="Judul">
+                                    @if ($errors->has('name'))
+                                        <span class="text-danger">{{ $errors->first('name') }}</span>
+                                    @endif
+                                </div>
+
+                                <div class="form-group pt-2">
+                                    <label for="link">Link</label>
+                                    <input class="form-control @error('link') is-invalid @enderror" id="link"
+                                        name="link" value="{{ $banner->link }}" type="text" placeholder="Judul">
+                                    @if ($errors->has('link'))
+                                        <span class="text-danger">{{ $errors->first('link') }}</span>
                                     @endif
                                 </div>
 
                                 <div class="form-group pt-2">
                                     <label for="desc">Keterangan</label>
                                     <textarea class="form-control @error('desc') is-invalid @enderror" id="desc" name="desc">
-                                        {{ $portofolio->desc }}
+                                        {{ $banner->desc }}
                                     </textarea>
                                     @if ($errors->has('desc'))
                                         <span class="text-danger">{{ $errors->first('desc') }}</span>
@@ -53,7 +62,7 @@
                                             <span class="text-danger">{{ $errors->first('image') }}</span>
                                         @endif
                                     </div>
-                                    <img src="{{ asset('back/assets/portofolio/' . $portofolio->image) }}" width="100"
+                                    <img src="{{ asset('back/assets/banner/' . $banner->image) }}" width="100"
                                         height="100">
                                 </div>
 
@@ -62,7 +71,7 @@
                                     <div class="col-sm-12">
                                         <p class="text-right">
                                             <button class="btn btn-space btn-danger" type="submit">Update</button>
-                                            <a href="{{ route('admin.portofolio') }}"
+                                            <a href="{{ route('admin.banner') }}"
                                                 class="btn btn-space btn-secondary">Cancel</a>
                                         </p>
                                     </div>
