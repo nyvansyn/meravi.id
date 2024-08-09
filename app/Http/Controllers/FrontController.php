@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Banner;
 use App\Models\CategoryPost;
 use App\Models\Portofolio;
 use App\Models\Post;
@@ -18,7 +19,10 @@ class FrontController extends Controller
      */
     public function index()
     {
-        //
+        $banners = Banner::latest()->take(3)->get();
+        $portofolios = Portofolio::latest()->take(9)->get();
+        $posts = Post::latest()->take(3)->get();
+        return view('front.index', compact('banners', 'posts', 'portofolios'));
     }
 
     public function about()
@@ -139,7 +143,7 @@ class FrontController extends Controller
         //$tagJoin = Tag::join('post_tag', 'post_tag.tag_id', '=','tags.id')->select('tags.name as tag_name')->get();
 
         $postTag = Post::join('post_tag', 'post_tag.post_id', '=', 'posts.id')
-            // ->join('tags', 'tags.id', '=', 'post_tag.tag.id')    
+            // ->join('tags', 'tags.id', '=', 'post_tag.tag.id')
             ->join('users', 'users.id', '=', 'posts.user_id')
             // ->where('tags.slug', $slug)
             ->select('posts.title', 'posts.cover', 'posts.created_at', 'posts.slug as post_slug', 'users.name as user_name')

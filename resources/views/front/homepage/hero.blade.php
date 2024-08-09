@@ -3,74 +3,31 @@
     <!-- Swiper -->
     <div class="swiper slider_home_3">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="bg-home2"
-                    data-background="{{ asset('front/assets/images/banner/banner-selamat-datang.webp') }}"
-                    style="background-size: cover">
-                    <div class="container hero-2">
-                        <div class="row">
-                            <div class="col-lg-8 z-2">
-                                {{-- <p
+            @foreach ($banners as $banner)
+                <div class="swiper-slide">
+                    <div class="bg-home2" data-background="{{ asset('back/assets/banner/' . $banner->image) }}"
+                        style="background-size: cover">
+                        <div class="container hero-2">
+                            <div class="row">
+                                <div class="col-lg-8 z-2">
+                                    {{-- <p
                                     class="sub-title fs-5 px-4 py-2 d-inline-flex text-gradient text-uppercase rounded-pill bg-tranperent">
                                 </p> --}}
-                                {{-- <h2 class="title-lg ds-1 fw-bold text-white mb-5">
+                                    {{-- <h2 class="title-lg ds-1 fw-bold text-white mb-5">
                                     <br />
                                     <span class="text-primary">.</span>
                                 </h2> --}}
-                                <div class="d-flex align-items-center gap-2">
-                                    <!--<a href="#demo" class="btn-gradient">Our Company<i class="bi bi-arrow-right ms-2"></i></a>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <!--<a href="#demo" class="btn-gradient">Our Company<i class="bi bi-arrow-right ms-2"></i></a>
                                     <a href="page-contact.html" class="btn-white"><i class="bi bi-arrow-right me-2"></i>Contact Us</a>-->
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="bg-home2"
-                    data-background="{{ asset('front/assets/images/banner/banner-selamat-datang.webp') }}"
-                    style="background-size: cover">
-                    <div class="container hero-2">
-                        <div class="row">
-                            <div class="col-lg-8 z-2">
-                                {{-- <p
-                                    class="sub-title fs-5 px-4 py-2 d-inline-flex text-gradient text-uppercase rounded-pill bg-tranperent">
-                                </p> --}}
-                                {{-- <h2 class="title-lg ds-1 fw-bold text-white mb-5">
-                                    <br />
-                                    <span class="text-primary">.</span>
-                                </h2> --}}
-                                <div class="d-flex align-items-center gap-2">
-                                    <!--<a href="#demo" class="btn-gradient">Our Company<i class="bi bi-arrow-right ms-2"></i></a>
-                                    <a href="page-contact.html" class="btn-white"><i class="bi bi-arrow-right me-2"></i>Contact Us</a>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="bg-home2"
-                    data-background="{{ asset('front/assets/images/banner/banner-selamat-datang.webp') }}">
-                    <div class="container hero-2">
-                        <div class="row">
-                            <div class="col-lg-8 z-2">
-                                {{-- <p
-                                    class="sub-title fs-5 px-4 py-2 d-inline-flex text-gradient text-uppercase rounded-pill bg-tranperent">
-                                </p> --}}
-                                {{-- <h2 class="title-lg ds-1 fw-bold text-white mb-5">
-                                    <br />
-                                    <span class="text-primary">.</span>
-                                </h2> --}}
-                                <div class="d-flex align-items-center gap-2">
-                                    <!--<a href="#demo" class="btn-gradient">Our Company<i class="bi bi-arrow-right ms-2"></i></a>
-                                    <a href="page-contact.html" class="btn-white"><i class="bi bi-arrow-right me-2"></i>Contact Us</a>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
+
             {{-- <div class="swiper-slide">
                 <div class="bg-home2" data-background="{{ asset('front/assets/images/home2/section-1/bg-2.png') }}">
                     <div class="container hero-2">

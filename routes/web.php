@@ -23,10 +23,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('front.index');
-});
+// Route::get('/', function () {
+//     return view('front.index');
+// });
 
+Route::get('/', [FrontController::class, 'index'])->name('homepage');
 Route::get('/tentang-kami', [FrontController::class, 'about'])->name('about');
 Route::get('/bumdes', [FrontController::class, 'bumdes'])->name('bumdes');
 Route::get('/umkm', [FrontController::class, 'umkm'])->name('umkm');

@@ -28,23 +28,26 @@
     <div class="box-swiper-padding wow img-custom-anim-top">
         <div class="swiper slider-1">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="case-study-img position-relative">
-                        <img src="{{ asset('front/assets/images/home1/case-study/img.png') }}" alt="abon" />
-                        <div class="overlay-1"></div>
-                        <div class="title-case-study position-absolute">
-                            <h3 class="text-white">Research</h3>
-                            <p class="w-75 text-white fw-normal pb-4">Our consultancy research arm conducts in-depth
-                                analysis and gathers invaluable insights to inform</p>
-                            <a href="page-blog-details.html" class="btn-gradient">Read More <i
-                                    class="bi bi-arrow-right ms-2"></i></a>
-                        </div>
-                        <div class="position-absolute number-rotate rotate--90 ">
-                            <h1 class="fw-bold text-white  d-inline-block stroke-white">01</h1>
+                @foreach ($portofolios as $portofolio)
+                    <div class="swiper-slide">
+                        <div class="case-study-img position-relative">
+                            <img src="{{ asset('back/assets/portofolio/' . $portofolio->image) }}"
+                                alt="{{ $portofolio->slug }}" />
+                            <div class="overlay-1"></div>
+                            <div class="title-case-study position-absolute">
+                                <h3 class="text-white">{{ $portofolio->title }}</h3>
+                                <p class="w-75 text-white fw-normal pb-6">{{ $portofolio->desc }}</p>
+                                {{-- <a href="page-blog-details.html" class="btn-gradient">Read More <i
+                                        class="bi bi-arrow-right ms-2"></i></a> --}}
+                            </div>
+                            <div class="position-absolute number-rotate rotate--90 ">
+                                <h1 class="fw-bold text-white  d-inline-block stroke-white">01</h1>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="swiper-slide">
+                @endforeach
+
+                {{-- <div class="swiper-slide">
                     <div class="case-study-img position-relative">
                         <img src="{{ asset('front/assets/images/home1/case-study/img-1.png') }}" alt="abon" />
                         <div class="title-case-study position-absolute">
@@ -88,7 +91,7 @@
                             <h1 class="fw-bold text-white d-inline-block stroke-white">04</h1>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
