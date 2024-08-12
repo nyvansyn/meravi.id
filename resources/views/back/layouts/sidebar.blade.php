@@ -66,6 +66,9 @@
                         <li class=""><a href="{{ route('admin.banner') }}"><i
                                     class="icon mdi mdi-collection-image-o"></i><span>Banner</span></a>
                         </li>
+                        <li class=""><a href="{{ route('admin.message') }}"><i
+                                    class="icon mdi mdi-comments"></i><span>List Pesan</span></a>
+                        </li>
 
                         <li class="divider">Blog</li>
                         <li class=""><a href="{{ route('admin.post.category') }}"><i

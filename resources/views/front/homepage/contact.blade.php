@@ -174,47 +174,64 @@
                 </div>
             </div>
             <div class="col-lg-6 ps-lg-10 pt-5">
-                <form action="" method="">
+                <form action="{{ route('message') }}" method="POST">
+                    @csrf
                     <div class="row wow img-custom-anim-top">
                         <div class="col-md-6 pe-md-4">
                             <div class="input-group mb-5">
-                                <input type="text"
-                                    class="form-control bg-black border-0 border-bottom border-secondary rounded-0"
+                                <input type="text" name="name"
+                                    class="form-control @error('name') is-invalid @enderror bg-black border-0 border-bottom border-secondary rounded-0"
                                     placeholder="Nama anda" aria-label="Recipient's username" />
                                 <i
                                     class="bi bi-person text-white d-flex border-bottom border-secondary  align-items-center"></i>
                             </div>
+                            @if ($errors->has('name'))
+                                <span class="text-danger">{{ $errors->first('name') }}</span>
+                            @endif
                             <div class="input-group mb-5 mt-4">
-                                <input type="text"
-                                    class="form-control bg-black border-0 border-bottom border-secondary rounded-0"
-                                    placeholder="Whatsapp" aria-label="Recipient's username" />
+                                <input type="text" name="whatsapp"
+                                    class="form-control @error('whatsapp') is-invalid @enderror bg-black border-0 border-bottom border-secondary rounded-0"
+                                    placeholder="whatsapp" aria-label="Recipient's username" />
                                 <i
                                     class="bi bi-telephone text-white d-flex border-bottom border-secondary  align-items-center"></i>
                             </div>
+                            @if ($errors->has('whatsapp'))
+                                <span class="text-danger">{{ $errors->first('whatsapp') }}</span>
+                            @endif
                         </div>
                         <div class="col-md-6 ps-md-4">
                             <div class="input-group mb-5">
-                                <input type="text"
-                                    class="form-control bg-black border-0 border-bottom border-secondary rounded-0"
+                                <input type="text" name="email"
+                                    class="form-control @error('email') is-invalid @enderror bg-black border-0 border-bottom border-secondary rounded-0"
                                     placeholder="info@meravi.id" aria-label="Username" />
                                 <i
                                     class="bi bi-envelope-open text-white d-flex border-bottom border-secondary  align-items-center"></i>
                             </div>
+                            @if ($errors->has('email'))
+                                <span class="text-danger">{{ $errors->first('email') }}</span>
+                            @endif
                             <div class="input-group mb-5">
-                                <input type="text"
-                                    class="form-control bg-black border-0 border-bottom border-secondary rounded-0"
+                                <input type="text" name="subject"
+                                    class="form-control @error('subject') is-invalid @enderror bg-black border-0 border-bottom border-secondary rounded-0"
                                     placeholder="Subjek" aria-label="Subject" />
                                 <i
                                     class="bi bi-file-earmark text-white d-flex border-bottom border-secondary  align-items-center"></i>
                             </div>
+                            @if ($errors->has('subject'))
+                                <span class="text-danger">{{ $errors->first('subject') }}</span>
+                            @endif
                         </div>
                         <div class="col-12">
                             <div class="input-group">
-                                <textarea class="form-control bg-black border-0 border-bottom border-secondary rounded-0 pb-10"
+                                <textarea name="message"
+                                    class="form-control @error('message') is-invalid @enderror bg-black border-0 border-bottom border-secondary rounded-0 pb-10"
                                     placeholder="Masukan pesan anda" aria-label="With textarea"></textarea>
                                 <i
                                     class="bi bi-pencil text-white d-flex border-bottom border-secondary align-items-start mt-2"></i>
                             </div>
+                            @if ($errors->has('message'))
+                                <span class="text-danger">{{ $errors->first('message') }}</span>
+                            @endif
                         </div>
                     </div>
                     <div class="mt-5">

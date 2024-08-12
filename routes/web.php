@@ -6,6 +6,7 @@ use App\Http\Controllers\CategoryPostController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DocumentController;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\MessageController;
 use App\Http\Controllers\PortofolioController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\TagController;
@@ -28,6 +29,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', [FrontController::class, 'index'])->name('homepage');
+Route::post('/message', [FrontController::class, 'message'])->name('message');
 Route::get('/tentang-kami', [FrontController::class, 'about'])->name('about');
 Route::get('/bumdes', [FrontController::class, 'bumdes'])->name('bumdes');
 Route::get('/umkm', [FrontController::class, 'umkm'])->name('umkm');
@@ -114,6 +116,15 @@ Route::group(['middleware' => ['auth']], function () {
             Route::get('/edit/{id}', [TestimonialController::class, 'edit'])->name('admin.testimonial.edit');
             Route::post('/update/{id}', [TestimonialController::class, 'update'])->name('admin.testimonial.update');
             Route::post('/delete/{id}', [TestimonialController::class, 'destroy'])->name('admin.testimonial.destroy');
+        });
+
+        Route::group(['prefix' => '/message'], function () {
+            Route::get('/', [MessageController::class, 'index'])->name('admin.message');
+            // Route::get('/create', [MessageController::class, 'create'])->name('admin.message.create');
+            // Route::post('/store', [MessageController::class, 'store'])->name('admin.message.store');
+            // Route::get('/edit/{id}', [MessageController::class, 'edit'])->name('admin.message.edit');
+            // Route::post('/update/{id}', [MessageController::class, 'update'])->name('admin.message.update');
+            Route::post('/delete/{id}', [MessageController::class, 'destroy'])->name('admin.message.destroy');
         });
 
         // post

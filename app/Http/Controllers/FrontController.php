@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Banner;
 use App\Models\CategoryPost;
+use App\Models\Message;
 use App\Models\Portofolio;
 use App\Models\Post;
 use App\Models\Tag;
@@ -151,5 +152,26 @@ class FrontController extends Controller
 
 
         return view('front.blog.tag', compact('tags', 'postTag', 'posts'));
+    }
+
+    public function message(Request $request)
+    {
+        $request->validate([
+            'name'              =>  'required',
+            'email'              =>  'required',
+            'whatsapp'              =>  'required',
+            'subject'              =>  'required',
+            'message'              =>  'required',
+        ]);
+
+        $message = new Message();
+        $message->name = $request->name;
+        $message->email = $request->email;
+        $message->whatsapp = $request->whatsapp;
+        $message->subject = $request->subject;
+        $message->message = $request->message;
+        $message->save();
+
+        return redirect()->route('homepage')->with('success', 'Data berhasil di kirim');
     }
 }
