@@ -4,9 +4,9 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="card card-table">
-                    <div class="card-header">List Banner
+                    <div class="card-header">List Klien
                         <div class="tools dropdown">
-                            <a class="btn btn-space btn-primary" href="{{ route('admin.banner.create') }}"><i
+                            <a class="btn btn-space btn-primary" href="{{ route('admin.client.create') }}"><i
                                     class="icon mdi mdi-plus-square"></i>Tambah</a>
                         </div>
                     </div>
@@ -18,27 +18,23 @@
                                     <th>Foto</th>
                                     <th>Nama</th>
                                     <th>Slug</th>
-                                    <th>Link</th>
-                                    <th>Keterangan</th>
                                     <th>Aksi</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($banners as $banner)
+                                @foreach ($clients as $client)
                                     <tr class="odd gradeX">
                                         <td>{{ $loop->index + 1 }}</td>
-                                        <td><img src="{{ asset('back/assets/banner/' . $banner->image) }}" width="40"
-                                                height="40">
+                                        <td><img src="{{ asset('back/assets/client/' . $client->image) }}" width="100"
+                                                height="28">
                                             </i></td>
-                                        <td>{{ $banner->name }}</td>
-                                        <td>{{ $banner->slug }}</td>
-                                        <td>{{ $banner->link }}</td>
-                                        <td>{{ $banner->desc }}</td>
+                                        <td>{{ $client->name }}</td>
+                                        <td>{{ $client->slug }}</td>
                                         <td class="actions d-flex">
                                             <a class="btn btn-space btn-warning"
-                                                href="{{ route('admin.banner.edit', $banner->id) }}"><i
+                                                href="{{ route('admin.client.edit', $client->id) }}"><i
                                                     class="icon mdi mdi-edit"></i></a>
-                                            <form action="{{ route('admin.banner.destroy', $banner->id) }}" method="post">
+                                            <form action="{{ route('admin.client.destroy', $client->id) }}" method="post">
                                                 @csrf
                                                 @method('POST')
                                                 <button type="submit" class="btn btn-space btn-danger"><i

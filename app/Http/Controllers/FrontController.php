@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Banner;
 use App\Models\CategoryPost;
+use App\Models\Client;
 use App\Models\Message;
 use App\Models\Portofolio;
 use App\Models\Post;
@@ -22,8 +23,9 @@ class FrontController extends Controller
     {
         $banners = Banner::latest()->take(3)->get();
         $portofolios = Portofolio::latest()->take(9)->get();
+        $clients = Client::latest()->get();
         $posts = Post::latest()->take(3)->get();
-        return view('front.index', compact('banners', 'posts', 'portofolios'));
+        return view('front.index', compact('banners', 'posts', 'portofolios', 'clients'));
     }
 
     public function about()
@@ -43,7 +45,8 @@ class FrontController extends Controller
 
     public function mitra()
     {
-        return view('front.client');
+        $clients = Client::latest()->get();
+        return view('front.client', compact('clients'));
     }
 
     public function portofolio()

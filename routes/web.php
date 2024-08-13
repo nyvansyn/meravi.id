@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BannerController;
 use App\Http\Controllers\CategoryPostController;
+use App\Http\Controllers\ClientController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DocumentController;
 use App\Http\Controllers\FrontController;
@@ -116,6 +117,15 @@ Route::group(['middleware' => ['auth']], function () {
             Route::get('/edit/{id}', [TestimonialController::class, 'edit'])->name('admin.testimonial.edit');
             Route::post('/update/{id}', [TestimonialController::class, 'update'])->name('admin.testimonial.update');
             Route::post('/delete/{id}', [TestimonialController::class, 'destroy'])->name('admin.testimonial.destroy');
+        });
+
+        Route::group(['prefix' => '/client'], function () {
+            Route::get('/', [ClientController::class, 'index'])->name('admin.client');
+            Route::get('/create', [ClientController::class, 'create'])->name('admin.client.create');
+            Route::post('/store', [ClientController::class, 'store'])->name('admin.client.store');
+            Route::get('/edit/{id}', [ClientController::class, 'edit'])->name('admin.client.edit');
+            Route::post('/update/{id}', [ClientController::class, 'update'])->name('admin.client.update');
+            Route::post('/delete/{id}', [ClientController::class, 'destroy'])->name('admin.client.destroy');
         });
 
         Route::group(['prefix' => '/message'], function () {
