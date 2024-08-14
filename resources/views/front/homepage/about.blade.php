@@ -6,13 +6,16 @@
                     class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border bg-white z-2">
                     Mengapa Memilih Kami</p>
                 <div class="z-2 title-lg lh-sm ds-2 fw-bold text-black mb-5">Bagaimana cara kami membantu anda</div>
-                <p class="pb-2">Abon gives you the blocks needed to create a truly professional website for your SaaS.
-                    Many desktop publishing packages and web page editors now use as their.</p>
-                <p class="pb-2">Other excellent features include slider, sticky navigation, back to top button,
-                    testimonials and animated statistics. Present your team, start a blog, share company logos that you
+                <p class="pb-2"><span class="fw-bold">Meravi.id</span> menyediakan program pemberdayaan untuk BUM Desa
+                    dan UMKM bekerja sama dan
+                    didukung oleh komunitas ABCGFM ( Academics, Business, Community, Government, Financial Institution,
+                    Media )
                 </p>
-                <a href="page-contact.html" class="btn-black border-0 fs-5 mt-2" target="_blank"><i
-                        class="bi bi-arrow-right me-2"></i>Get In Touch</a>
+                <p class="pb-2">Dengan berbagai layanan seperti Pelatihan, Pendampingan, Inkubasi dan Kemitraan, Kami
+                    siap untuk membantu Anda dalam mengembangkan BUM Desa dan UMKM
+                </p>
+                <a href="" class="btn-black border-0 fs-5 mt-2" target="_blank"><i
+                        class="bi bi-arrow-right me-2"></i>Pelajari Selengkapnya</a>
             </div>
         </div>
         <div class="col-lg-6 col-12 mt-lg-0 mt-8">
