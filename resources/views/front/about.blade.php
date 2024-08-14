@@ -214,40 +214,56 @@
                     <!-- Swiper -->
                     <div class="swiper slider_home_3 overflow-visible position-relative wow img-custom-anim-left">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="d-flex align-items-start">
-                                    <div class="pe-5 d-none d-md-block">
-                                        <svg class="position-relative z-2" xmlns="http://www.w3.org/2000/svg"
-                                            width="55" height="40" viewBox="0 0 55 40" fill="none">
-                                            <path d="M0 0V40L20.625 20V0H0Z" fill="black" />
-                                            <path d="M34.375 0V40L55 20V0H34.375Z" fill="black" />
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <p class="position-relative z-2 mb-5 fs-2">" Working with Abon has been a
-                                            game-changer for our business. Their strategic insights and actionable
-                                            recommendations have helped us overcome obstacles and achieve remarkable growth.
-                                            "</p>
-                                        <div class="text-start">
-                                            <i class="bi bi-star-fill text-primary position-relative z-2"></i>
-                                            <i class="bi bi-star-fill text-primary position-relative z-2"></i>
-                                            <i class="bi bi-star-fill text-primary position-relative z-2"></i>
-                                            <i class="bi bi-star-fill text-primary position-relative z-2"></i>
-                                            <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                            @foreach ($testimonials as $testimonial)
+                                <div class="swiper-slide">
+                                    <div class="d-flex align-items-start">
+                                        <div class="pe-5 d-none d-md-block">
+                                            <svg class="position-relative z-2" xmlns="http://www.w3.org/2000/svg"
+                                                width="55" height="40" viewBox="0 0 55 40" fill="none">
+                                                <path d="M0 0V40L20.625 20V0H0Z" fill="black" />
+                                                <path d="M34.375 0V40L55 20V0H34.375Z" fill="black" />
+                                            </svg>
                                         </div>
-                                        <a href="#"
-                                            class="d-flex align-items-center position-relative z-2 d-inline-flex mt-10">
-                                            <img src="{{ asset('front/assets/images/home2/section-8/avatar-1.png') }}"
-                                                alt="abon" />
-                                            <div class="ms-3">
-                                                <h4 class="mb-0">Miranda H. Halim</h4>
-                                                <p class="text-secondary fs-4 mb-0">Marketing Director</p>
+                                        <div>
+                                            <p class="position-relative z-2 mb-5 fs-2">{{ $testimonial->testimonial }}</p>
+                                            <div class="text-start">
+                                                @if ($testimonial->star == 5)
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                @elseif($testimonial->star == 4)
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                @elseif($testimonial->star == 3)
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                @elseif($testimonial->star == 2)
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                @else
+                                                    <i class="bi bi-star-fill text-primary position-relative z-2"></i>
+                                                @endif
                                             </div>
-                                        </a>
+                                            <a href="#"
+                                                class="d-flex align-items-center position-relative z-2 d-inline-flex mt-10">
+                                                <img src="{{ asset('back/assets/testimonial/' . $testimonial->image) }}"
+                                                    alt="" />
+                                                <div class="ms-3">
+                                                    <h4 class="mb-0">{{ $testimonial->name }}</h4>
+                                                    <p class="text-secondary fs-4 mb-0">{{ $testimonial->job_title }}</p>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
+                            @endforeach
+
+                            {{-- <div class="swiper-slide">
                                 <div class="d-flex align-items-start">
                                     <div class="pe-5 d-none d-md-block">
                                         <svg class="position-relative z-2" xmlns="http://www.w3.org/2000/svg"
@@ -419,7 +435,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                         <div class="swiper-pagination position-absolute bottom-0 end-0 z-0"></div>
                     </div>

@@ -9,6 +9,7 @@ use App\Models\Message;
 use App\Models\Portofolio;
 use App\Models\Post;
 use App\Models\Tag;
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -30,7 +31,8 @@ class FrontController extends Controller
 
     public function about()
     {
-        return view('front.about');
+        $testimonials = Testimonial::latest()->take(9)->get();
+        return view('front.about', compact('testimonials'));
     }
 
     public function bumdes()
