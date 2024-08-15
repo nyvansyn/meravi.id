@@ -9,12 +9,12 @@
                         <div class="btn-sm">We Hiring</div>
                     </a>-->
                     <div class="follow-us me-2 border-start ps-4">Follow Us:</div>
-                    <a target="blank" href="https://www.facebook.com/meravi.id" class=" text-reset">
+                    {{-- <a target="blank" href="https://www.facebook.com/meravi.id" class=" text-reset">
                         <i class="bi bi-facebook"></i>
                     </a>
                     <a target="blank" href="https://twitter.com/" class=" text-reset">
                         <i class="bi bi-twitter-x"></i>
-                    </a>
+                    </a> --}}
                     <a target="blank" href="https://www.instagram.com/meravi.id?igsh=MXhtNDc3aWJ1ZG1mbA=="
                         class=" text-reset">
                         <i class="bi bi-instagram"></i>
