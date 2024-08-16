@@ -1,4 +1,10 @@
 @extends('front.layouts.index')
+@push('seo')
+    <meta name="title" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+@endpush
 @section('containt')
     <section id="clinet">
         <div class="container section-padding border-top">

@@ -1,4 +1,10 @@
 @extends('front.layouts.index')
+@push('seo')
+    <meta name="title" content="{{ $post->title }}">
+    <meta name="description" content="{{ $post->meta_desc }}">
+    <meta name="keywords" content="{{ $post->keywords }}">
+    <meta name="author" content="{{ $post->user->name }}">
+@endpush
 
 @section('containt')
     <main>

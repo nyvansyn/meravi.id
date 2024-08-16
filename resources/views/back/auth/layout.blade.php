@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/img/logo-fav.png">
-    <title>Beagle</title>
+    <title>Meravi | Authentication</title>
     <link rel="stylesheet" type="text/css"
         href="{{ asset('back/assets/lib/perfect-scrollbar/css/perfect-scrollbar.css') }}" />
     <link rel="stylesheet" type="text/css"
@@ -18,7 +18,7 @@
 
 <body class="be-splash-screen">
     @yield('auth')
-    
+
     <script src="{{ asset('back/assets/lib/jquery/jquery.min.js') }}" type="text/javascript"></script>
     <script src="{{ asset('back/assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js') }}" type="text/javascript">
     </script>

@@ -1,4 +1,11 @@
 @extends('front.layouts.index')
+@push('seo')
+    <meta name="title" content="meravi.id">
+    <meta name="description"
+        content="Meravi.id merupakan layanan terintgrasi training center, event organizer dan kemitraan untuk community managementt & empowerment">
+    <meta name="keywords" content=" meravi.id, training center, syncore ">
+    <meta name="author" content="admin meravi.id">
+@endpush
 
 @section('containt')
     {{-- @include('front.layouts.components.slider')
