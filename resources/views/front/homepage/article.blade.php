@@ -3,14 +3,13 @@
         <div class="row">
             <div class="col-12 text-center position-relative">
                 <div class="stroke text-nowrap lh-base fw-bold position-absolute top-0 start-50 translate-middle z-1">
-                    Insights</div>
+                    Article</div>
                 <div class="z-2 position-relative wow img-custom-anim-top">
                     <p
                         class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border border-primary bg-white z-2">
-                        Insights</p>
+                        Artikel</p>
                     <div class="title-lg ds-2 fw-bold text-black mb-5">
-                        Updated With Our Latest <br />
-                        Industry Perspectives
+                        Artikel Terbaru
                     </div>
                 </div>
             </div>
