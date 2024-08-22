@@ -57,9 +57,9 @@
                         <li class=""><a href="{{ route('user') }}"><i class="icon mdi mdi-account"></i><span>List
                                     Member</span></a>
                         </li>
-                        <li class=""><a href="{{ route('admin.portofolio') }}"><i
+                        {{-- <li class=""><a href="{{ route('admin.portofolio') }}"><i
                                     class="icon mdi mdi-book-image"></i><span>Portofolio</span></a>
-                        </li>
+                        </li> --}}
                         <li class=""><a href="{{ route('admin.testimonial') }}"><i
                                     class="icon mdi mdi-comments"></i><span>Testimoni</span></a>
                         </li>
