@@ -14,9 +14,9 @@
                     <div class="position-relative z-1 text-center">
                         <div class="wow img-custom-anim-left">
                             <img class="w-75 z-1 position-relative"
-                                src="{{ asset('front/assets/images/home2/section-2/bg.png') }}" alt="abon" />
+                                src="{{ asset('front/assets/images/about/Tentang-Meravi.png') }}" alt="abon" />
                         </div>
-                        <div class="position-absolute bottom-0 start-0 mb-4">
+                        {{-- <div class="position-absolute bottom-0 start-0 mb-4">
                             <div class="floating-card position-relative bg-white px-3 z-1">
                                 <p class="stroke-twenty fw-bold">20</p>
                                 <div
@@ -27,7 +27,7 @@
                             </div>
                             <div class="circle bg-primary rounded-circle position-absolute start-0 translate-middle z-0">
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -76,7 +76,7 @@
             <div class="row">
                 <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                     <div class="zoom-img wow img-custom-anim-left">
-                        <img src="{{ asset('front/assets/images/home2/section-3/bg.png') }}" alt="abon" />
+                        <img src="{{ asset('front/assets/images/about/Visi.png') }}" alt="abon" />
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -87,8 +87,8 @@
                                 Visi kami</p>
                             <div class="lh-1 ds-5 fw-bold text-black mb-3">Membangun Masyarakat dan Komunitas yang Berdaya.
                             </div>
-                            <p class="fs-4 fw-normal mb-4">Through innovative strategies, expert guidance, and unwavering
-                                support, we are committed.</p>
+                            {{-- <p class="fs-4 fw-normal mb-4">Through innovative strategies, expert guidance, and unwavering
+                                support, we are committed.</p> --}}
                         </div>
                         <div class="position-absolute top-0 start-0 p-5">
                             <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70"
@@ -138,23 +138,26 @@
                                 support, we are committed.</p> --}}
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check-circle me-2 text-primary"></i>
-                                <p class="mb-0">Menyelenggarakan Pelatihan untuk Peningkatan Kapasitas SDM</p>
+                                <p class="mb-0 text-black">Menyelenggarakan Pelatihan untuk Peningkatan Kapasitas SDM</p>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check-circle me-2 text-primary"></i>
-                                <p class="mb-0">Menyelenggarakan Pendampingan untuk Pengembangan Ekonomi Lokal</p>
+                                <p class="mb-0 text-black">Menyelenggarakan Pendampingan untuk Pengembangan Ekonomi Lokal
+                                </p>
                             </div>
                             <div class="d-flex align-items-center mb-4">
                                 <i class="bi bi-check-circle me-2 text-primary"></i>
-                                <p class="mb-0">Menyelenggarakan Inkubasi untuk Menciptakan Bisnis-Bisnis Baru</p>
+                                <p class="mb-0 text-black">Menyelenggarakan Inkubasi untuk Menciptakan Bisnis-Bisnis Baru
+                                </p>
                             </div>
                             <div class="d-flex align-items-center mb-4">
                                 <i class="bi bi-check-circle me-2 text-primary"></i>
-                                <p class="mb-0">Menyelenggarakan Event Offline dan Online</p>
+                                <p class="mb-0 text-black">Menyelenggarakan Event Offline dan Online</p>
                             </div>
                             <div class="d-flex align-items-center mb-4">
                                 <i class="bi bi-check-circle me-2 text-primary"></i>
-                                <p class="mb-0">Menyelenggarakan Pengelolaan Komunitas untuk Pengembangan Ekosistem
+                                <p class="mb-0 text-black">Menyelenggarakan Pengelolaan Komunitas untuk Pengembangan
+                                    Ekosistem
                                     Ekonomi Lokal</p>
                             </div>
                         </div>
@@ -191,7 +194,7 @@
                 </div>
                 <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                     <div class="zoom-img wow img-custom-anim-left">
-                        <img src="{{ asset('front/assets/images/home2/section-3/bg.png') }}" alt="abon" />
+                        <img src="{{ asset('front/assets/images/about/Misi.png') }}" alt="abon" />
                     </div>
                 </div>
 

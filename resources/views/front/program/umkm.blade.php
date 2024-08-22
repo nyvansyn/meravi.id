@@ -7,12 +7,15 @@
                     <div class="pe-lg-5 me-lg-5">
                         <p
                             class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border border-secondary-1 bg-white">
-                            UMKM</p>
-                        <h2 class="ds-2 lh-1 fw-bold text-dark mb-5">Apa itu Kejar UMKM</h2>
-                        <p class="mb-4 ">At Abon, we understand that managing a business efficiently requires seamless
-                            coordination and streamlined processes. That's why we've developed a to the cutting edge.</p>
-                        <p class="mb-6">That empowers you to take control of your operations to the boost productivity, and
-                            elevate your business to new heights. Abon is not just a software solution.</p>
+                            Pemberdayaan UMKM</p>
+                        <h2 class="ds-2 lh-1 fw-bold text-dark mb-5">Kejar UMKN</h2>
+                        <p class="mb-4 "><span class="fw-bold">Kejar UMKM</span> merupakan Komunitas Kelompok Belajar UMKM
+                            dalam mengelola Keuangan,
+                            Manajemen, dan Pemasaran UMKM. Dengan berjejaring di Kejar UMKM, diharapkan para Pelaku UMKM
+                            dapat berkontribusi dan berkolaborasi dalam pengembangan usaha bisnis UMKM.
+                        </p>
+                        {{-- <p class="mb-6">That empowers you to take control of your operations to the boost productivity, and
+                            elevate your business to new heights. Abon is not just a software solution.</p> --}}
                         {{-- <div class="d-flex align-items-center">
                             <a href="https://bumdes.id/" target="_blank" class="btn-gradient fs-5 me-2 mt-2">Pelajari
                                 selengkapnya<i class="bi bi-arrow-right ms-2"></i></a>
@@ -22,7 +25,8 @@
                 <div class="col-lg-6" data-aos="fade-up">
                     <div class="position-relative d-inline-flex">
                         <img class="img-fluid position-relative z-1"
-                            src="{{ asset('front/assets/images/page-about/section-1/img.png') }}" alt="image" />
+                            src="{{ asset('front/assets/images/program/Siapa Kejar UMKM 601X607.png') }}"
+                            alt="sipa-kejar-umkm" />
                         <div class="box-300-about position-absolute bg-gradient z-0"></div>
                     </div>
                 </div>
