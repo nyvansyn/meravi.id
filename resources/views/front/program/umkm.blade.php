@@ -107,15 +107,18 @@
                     <div class="row wow img-custom-anim-top">
                         <div class="col mt-5">
                             <img class="d-block mb-4"
-                                src="{{ asset('front/assets/images/page-services/section-4/img-1.png') }}" alt="abon" />
-                            <img class="d-block" src="{{ asset('front/assets/images/page-services/section-4/img-2.png') }}"
-                                alt="abon" />
+                                src="{{ asset('front/assets/images/program/pelatihan umkm 279x366.png') }}"
+                                alt="pelatiha-umkm-279x366" />
+                            <img class="d-block"
+                                src="{{ asset('front/assets/images/program/pelatihan umkm  282x190.png') }}"
+                                alt="pelatihan-umkm-282x190.png" />
                         </div>
                         <div class="col mb-5">
                             <img class="d-block mb-4"
-                                src="{{ asset('front/assets/images/page-services/section-4/img-3.png') }}" alt="abon" />
-                            <img class="d-block" src="{{ asset('front/assets/images/page-services/section-4/img-4.png') }}"
-                                alt="abon" />
+                                src="{{ asset('front/assets/images/program/pelatihan umkm 341x329.png') }}"
+                                alt="pelatihan-umkm-341x329.png" />
+                            <img class="d-block" src="{{ asset('front/assets/images/program/pelatihan umkm 341x257.png') }}"
+                                alt="pelatihan-umkm-341x257.png" />
                         </div>
                     </div>
                 </div>
