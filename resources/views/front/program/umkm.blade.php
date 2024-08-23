@@ -50,9 +50,9 @@
                                 <img src="{{ asset('front/assets/images/page-services/section-4/icon-1.png') }}"
                                     alt="abon" class="align-self-start" />
                                 <div class="px-4">
-                                    <p class="fs-2 fw-bold text-dark">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Peningkatan Kapasitas & Kopentensi Pelaku UMKM
-                                    </p>
+                                    </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
@@ -63,9 +63,9 @@
                                 <img src="{{ asset('front/assets/images/page-services/section-4/icon-2.png') }}"
                                     alt="abon" class="align-self-start" />
                                 <div class="px-4">
-                                    <p class="fs-2 fw-bold text-dark">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Pencatatan Transaksi Keuangan UMKM
-                                    </p>
+                                    </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
@@ -78,9 +78,9 @@
                                 <img src="{{ asset('front/assets/images/page-services/section-4/icon-1.png') }}"
                                     alt="abon" class="align-self-start" />
                                 <div class="px-4">
-                                    <p class="fs-2 fw-bold text-dark">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Digital Marketing UMKM
-                                    </p>
+                                    </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
@@ -91,9 +91,9 @@
                                 <img src="{{ asset('front/assets/images/page-services/section-4/icon-2.png') }}"
                                     alt="abon" class="align-self-start" />
                                 <div class="px-4">
-                                    <p class="fs-2 fw-bold text-dark">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Penysusunan Rencana UMKM
-                                    </p>
+                                    </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
@@ -149,9 +149,9 @@
                                 <img src="{{ asset('front/assets/images/page-services/section-4/icon-1.png') }}"
                                     alt="abon" class="align-self-start" />
                                 <div class="px-4">
-                                    <p class="fs-2 fw-bold text-dark">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Pendampingan Rencana Usaha UMKM
-                                    </p>
+                                    </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
@@ -162,9 +162,9 @@
                                 <img src="{{ asset('front/assets/images/page-services/section-4/icon-2.png') }}"
                                     alt="abon" class="align-self-start" />
                                 <div class="px-4">
-                                    <p class="fs-2 fw-bold text-dark">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Pendampingan Digital Marketing UMKM
-                                    </p>
+                                    </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
@@ -177,9 +177,9 @@
                                 <img src="{{ asset('front/assets/images/page-services/section-4/icon-1.png') }}"
                                     alt="abon" class="align-self-start" />
                                 <div class="px-4">
-                                    <p class="fs-2 fw-bold text-dark">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Pendampingan Pembuatan Profil Usaha dan NIB
-                                    </p>
+                                    </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
@@ -190,9 +190,9 @@
                                 <img src="{{ asset('front/assets/images/page-services/section-4/icon-2.png') }}"
                                     alt="abon" class="align-self-start" />
                                 <div class="px-4">
-                                    <p class="fs-2 fw-bold text-dark">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Pendampingan Laporan Keuangan UMKM
-                                    </p>
+                                    </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
