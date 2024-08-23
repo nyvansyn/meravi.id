@@ -13,12 +13,10 @@
                 <div class="col-12 text-center">
                     <p
                         class="sub-title fs-5 px-4 py-2 d-none d-md-inline-flex text-primary rounded-pill border border-primary bg-white z-2">
-                        Home <span class="text-secondary">-</span> Services <span class="text-secondary">-</span> Financial
-                        Analysic</p>
+                        Download</p>
                     <div class="title-lg ds-2 fw-bold text-black mb-3">Download Dokumen</div>
                     <p class="text-secondary">
-                        A business strategy is the means by which it sets out to <br />
-                        achieve its desired ends.
+                        Download dokumen seputar BUM Desa dan UMKM
                     </p>
                 </div>
             </div>
