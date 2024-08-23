@@ -47,8 +47,8 @@
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/page-services/section-4/icon-1.png') }}"
-                                    alt="abon" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Peningkatan Kapasitas & Kopentensi Pelaku UMKM.png') }}"
+                                    alt="Peningkatan Kapasitas & Kopentensi Pelaku UMKM" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Peningkatan Kapasitas & Kopentensi Pelaku UMKM
@@ -60,8 +60,8 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/page-services/section-4/icon-2.png') }}"
-                                    alt="abon" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pencatatan Transaksi Keuangan UMKM.png') }}"
+                                    alt="Pencatatan Transaksi Keuangan UMKM" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Pencatatan Transaksi Keuangan UMKM
@@ -75,8 +75,8 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/page-services/section-4/icon-1.png') }}"
-                                    alt="abon" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Digital Marketing UMKM.png') }}"
+                                    alt="Digital Marketing UMKM" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Digital Marketing UMKM
@@ -88,8 +88,8 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/page-services/section-4/icon-2.png') }}"
-                                    alt="abon" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Penysusunan Rencana UMKMMarketing UMKM.png') }}"
+                                    alt="Penysusunan Rencana UMKMMarketing UMKM" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Penysusunan Rencana UMKM
@@ -146,8 +146,8 @@
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/page-services/section-4/icon-1.png') }}"
-                                    alt="abon" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Rencana Usaha UMKM.png') }}"
+                                    alt="Pendampingan Rencana Usaha UMKM" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Pendampingan Rencana Usaha UMKM
@@ -159,8 +159,8 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/page-services/section-4/icon-2.png') }}"
-                                    alt="abon" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Digital Marketing UMKM.png') }}"
+                                    alt="Pendampingan Digital Marketing UMKM" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Pendampingan Digital Marketing UMKM
@@ -174,8 +174,8 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/page-services/section-4/icon-1.png') }}"
-                                    alt="abon" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Pembuatan Profil Usaha dan NIB.png') }}"
+                                    alt="Pendampingan Pembuatan Profil Usaha dan NIB" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Pendampingan Pembuatan Profil Usaha dan NIB
@@ -187,8 +187,8 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/page-services/section-4/icon-2.png') }}"
-                                    alt="abon" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Laporan Keuangan UMKM.png') }}"
+                                    alt="Pendampingan Laporan Keuangan UMKM" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="" target="_blank" class="fs-2 fw-bold text-dark">
                                         Pendampingan Laporan Keuangan UMKM
