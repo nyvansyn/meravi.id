@@ -8,7 +8,7 @@
                         <p
                             class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border border-secondary-1 bg-white">
                             Pemberdayaan UMKM</p>
-                        <h2 class="ds-2 lh-1 fw-bold text-dark mb-5">Kejar UMKN</h2>
+                        <h2 class="ds-2 lh-1 fw-bold text-dark mb-5">Kejar UMKM</h2>
                         <p class="mb-4 "><span class="fw-bold">Kejar UMKM</span> merupakan Komunitas Kelompok Belajar UMKM
                             dalam mengelola Keuangan,
                             Manajemen, dan Pemasaran UMKM. Dengan berjejaring di Kejar UMKM, diharapkan para Pelaku UMKM
@@ -53,10 +53,10 @@
                                     <p class="fs-2 fw-bold text-dark">
                                         Peningkatan Kapasitas & Kopentensi Pelaku UMKM
                                     </p>
-                                    <p class="mb-5 pe-2">
+                                    {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
-                                    </p>
+                                    </p> --}}
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
@@ -66,10 +66,10 @@
                                     <p class="fs-2 fw-bold text-dark">
                                         Pencatatan Transaksi Keuangan UMKM
                                     </p>
-                                    <p class="mb-5 pe-2">
+                                    {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
-                                    </p>
+                                    </p> --}}
                                 </div>
                             </div>
                         </div>
@@ -81,10 +81,10 @@
                                     <p class="fs-2 fw-bold text-dark">
                                         Digital Marketing UMKM
                                     </p>
-                                    <p class="mb-5 pe-2">
+                                    {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
-                                    </p>
+                                    </p> --}}
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
@@ -94,10 +94,10 @@
                                     <p class="fs-2 fw-bold text-dark">
                                         Penysusunan Rencana UMKM
                                     </p>
-                                    <p class="mb-5 pe-2">
+                                    {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
-                                    </p>
+                                    </p> --}}
                                 </div>
                             </div>
                         </div>
@@ -132,7 +132,7 @@
                 <div class="col-lg-5 offset-lg-1s position-relative  pe-lg-5">
                     <div class="position-relative d-inline-flex">
                         <img class="img-fluid position-relative z-1"
-                            src="{{ asset('front/assets/images/page-about/section-1/img.png') }}" alt="image" />
+                            src="{{ asset('front/assets/images/program/Pendampingan UMKM 601X601.png') }}" alt="image" />
                         <div class="box-300-about position-absolute bg-gradient z-0"></div>
                     </div>
                 </div>
@@ -152,10 +152,10 @@
                                     <p class="fs-2 fw-bold text-dark">
                                         Pendampingan Rencana Usaha UMKM
                                     </p>
-                                    <p class="mb-5 pe-2">
+                                    {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
-                                    </p>
+                                    </p> --}}
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
@@ -165,10 +165,10 @@
                                     <p class="fs-2 fw-bold text-dark">
                                         Pendampingan Digital Marketing UMKM
                                     </p>
-                                    <p class="mb-5 pe-2">
+                                    {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
-                                    </p>
+                                    </p> --}}
                                 </div>
                             </div>
                         </div>
@@ -180,10 +180,10 @@
                                     <p class="fs-2 fw-bold text-dark">
                                         Pendampingan Pembuatan Profil Usaha dan NIB
                                     </p>
-                                    <p class="mb-5 pe-2">
+                                    {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
-                                    </p>
+                                    </p> --}}
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
@@ -193,10 +193,10 @@
                                     <p class="fs-2 fw-bold text-dark">
                                         Pendampingan Laporan Keuangan UMKM
                                     </p>
-                                    <p class="mb-5 pe-2">
+                                    {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
                                         identify a ballpark value added activity
-                                    </p>
+                                    </p> --}}
                                 </div>
                             </div>
                         </div>
