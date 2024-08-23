@@ -9,9 +9,11 @@
                     <div class="col-12 text-center">
                         <p
                             class="sub-title fs-5 px-4 py-2 d-none d-md-inline-flex text-primary rounded-pill border border-primary bg-white z-2">
-                            Home <span class="text-secondary">-</span> News & Blog</p>
-                        <div class="title-lg ds-2 fw-bold text-white mb-3">Latest News</div>
-                        <p class="text-white fs-2">Get The Latest News, Advice & Best Practice From Blog.</p>
+                            Article</p>
+                        <div class="title-lg ds-2 fw-bold text-white mb-3">Artikel Terbaru</div>
+                        <p class="text-white fs-2">Dapatkan update berita terbaru seputar BUM Desa dan UMKM, <br /> dan bisa
+                            ngga di
+                            setting yang artikel tag portofolio gak muncul disini?</p>
                     </div>
                 </div>
             </div>
@@ -63,7 +65,8 @@
                                                 </p>
                                             </div>
                                             <h4 class="text-black fs-4 border-bottom pb-4"><a class="text-dark"
-                                                    href="{{ route('blog.show', $post->slug) }}">{{ $post->title }}</a></h4>
+                                                    href="{{ route('blog.show', $post->slug) }}">{{ $post->title }}</a>
+                                            </h4>
                                             <a href="{{ route('blog.show', $post->slug) }}" target="_blank"
                                                 class="text-primary fw-medium pt-2 d-lg-inline-block"><i
                                                     class="bi bi-arrow-right me-2"></i>Read More</a>

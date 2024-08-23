@@ -25,7 +25,7 @@ class FrontController extends Controller
         $banners = Banner::latest()->take(3)->get();
         // $portofolios = Portofolio::latest()->take(9)->get();
         $clients = Client::latest()->get();
-        $posts = Post::latest()->take(3)->get();
+        $posts = Post::where('category_id', '!=', 7)->latest()->take(3)->get();
         $portofolios = Post::where('category_id', '=', 7)->latest()->take(3)->get();
 
         return view('front.index', compact('banners', 'posts', 'portofolios', 'clients'));
@@ -62,7 +62,7 @@ class FrontController extends Controller
 
     public function blog()
     {
-        $posts = Post::latest()->paginate(9);
+        $posts = Post::where('category_id', '!=', 7)->latest()->paginate(9);
         return view('front.blog.index', compact('posts'));
     }
 
