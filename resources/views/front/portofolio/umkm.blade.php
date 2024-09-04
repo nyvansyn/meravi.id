@@ -25,6 +25,14 @@
                     </form>
                 </div>
             </div> --}}
+            <div class="col-12 text-center" data-aos="fade-up">
+                <p
+                    class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border bg-white z-2">
+                    Portofolio</p>
+                <div class="ds-2 fw-bold text-black lh-sm mb-5">
+                    Pemberdayaan UMKM
+                </div>
+            </div>
             <div class="row align-items-center justify-content-center">
                 @forelse ($portofolios as $post)
                     <div

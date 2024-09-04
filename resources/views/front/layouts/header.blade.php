@@ -111,9 +111,20 @@
                                 </ul>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link fw-medium" href="{{ url('/portofolio') }}">Portofolio</a>
+                            <li class="nav-item dropdown menu-item-has-children">
+                                <a class="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Portofolio</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="{{ url('/portofolio-bumdes') }}">Pemberdayaan BUM
+                                            Desa</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="{{ url('/portofolio-umkm') }}">Pemberdayaan
+                                            UMKM</a></li>
+                                </ul>
                             </li>
+                            {{-- <li class="nav-item">
+                                <a class="nav-link fw-medium" href="{{ url('/portofolio') }}">Portofolio</a>
+                            </li> --}}
 
                             <li class="nav-item">
                                 <a class="nav-link fw-medium" href="{{ url('/mitra') }}">Mitra</a>

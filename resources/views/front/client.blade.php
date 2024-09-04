@@ -21,10 +21,10 @@
                 <div class="row mt-8 position-relative z-1">
                     <div class="position-relative" data-aos="fade-up">
                         <div class="swiper slider-3 position-relative z-2">
-                            <div class="swiper-wrapper">
+                            <div class="swiper-wrappers row">
                                 @foreach ($clients as $client)
-                                    <div class="swiper-slide">
-                                        <img class="py-4 px-6 img-fluid d-block"
+                                    <div class="col-lg-3 pt-2 col-6 mb-4 mb-lg-0">
+                                        <img class="py-4 px-6 img-fluid d-block "
                                             src="{{ asset('back/assets/client/' . $client->image) }}"
                                             alt="{{ $client->slug }}" />
                                     </div>
