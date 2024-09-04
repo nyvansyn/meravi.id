@@ -95,8 +95,9 @@
                                 <img src="{{ asset('front/assets/images/program/icon/Peningkatan Kapasitas & Kopentensi Pelaku UMKM.png') }}"
                                     alt="Peningkatan Kapasitas & Kompetensi Pelaku UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Peningkatan Kapasitas & Kompetensi Pelaku UMKM
+                                    <a href="https://bumdes.id/id/pelatihan/detail/training-of-trainers-pendamping-bumdes"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        Training Of Trainer Pendamping Bumdes
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -108,8 +109,23 @@
                                 <img src="{{ asset('front/assets/images/program/icon/Pencatatan Transaksi Keuangan UMKM.png') }}"
                                     alt="Pencatatan Transaksi Keuangan UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pencatatan Transaksi Keuangan UMKM
+                                    <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-revitalisasi-bum-desa-paska-pp-11-tahun-2021"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        ⁠Pelatihan Revitalisasi Bumdes Paska PP 11 Tahun 2021
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Digital Marketing UMKM.png') }}"
+                                    alt="Digital Marketing UMKM" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-tatakelola-dan-manajemen-bum-desa"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        ⁠Pelatihan Tatakelola dan Manajemen Bumdes
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -120,11 +136,26 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Penysusunan Rencana UMKMMarketing UMKM.png') }}"
+                                    alt="Penyusunan Rencana UMKMMarketing UMKM" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-penyusunan-sop-unit-usaha-bum-desa"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        ⁠Pelatihan Penyusunan SOP Unit Usaha Bumdes
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Digital Marketing UMKM.png') }}"
                                     alt="Digital Marketing UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Digital Marketing UMKM
+                                    <a href="https://bumdes.id/id/pelatihan/detail/pelatihan-penyusunan-laporan-keuangan-bum-desa"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        ⁠Pelatihan Penyusunan Laporan Keuangan Bumdes
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -136,8 +167,9 @@
                                 <img src="{{ asset('front/assets/images/program/icon/Penysusunan Rencana UMKMMarketing UMKM.png') }}"
                                     alt="Penyusunan Rencana UMKMMarketing UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Penyusunan Rencana UMKM
+                                    <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-kunjungan-sekolah-bumdes"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        Kunjungan Sekolah Bumdes
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -192,13 +224,14 @@
                         <div class="ds-2 fw-bold text-black lh-sm position-relative z-2">Pendampingan BUM Desa</div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-12">
+                        <div class="col-12">
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Pendampingan Rencana Usaha UMKM.png') }}"
                                     alt="Pendampingan Rencana Usaha UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pendampingan Rencana Usaha UMKM
+                                    <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-penyusunan-rencana-usaha-bumdes"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        ⁠Pendampingan Pemetaan Potensi & Pemilihan Usaha BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -210,23 +243,9 @@
                                 <img src="{{ asset('front/assets/images/program/icon/Pendampingan Digital Marketing UMKM.png') }}"
                                     alt="Pendampingan Digital Marketing UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pendampingan Digital Marketing UMKM
-                                    </a>
-                                    {{-- <p class="mb-5 pe-2">
-                                        Capitalize on low hanging fruit to <br />
-                                        identify a ballpark value added activity
-                                    </p> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12">
-                            <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Pembuatan Profil Usaha dan NIB.png') }}"
-                                    alt="Pendampingan Pembuatan Profil Usaha dan NIB" class="align-self-start" />
-                                <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pendampingan Pembuatan Profil Usaha dan NIB
+                                    <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-tata-kelola-manajemen-bumdes"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        Pendampingan Tata Kelola & Manajemen Operasional BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -235,11 +254,12 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Laporan Keuangan UMKM.png') }}"
-                                    alt="Pendampingan Laporan Keuangan UMKM" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Digital Marketing UMKM.png') }}"
+                                    alt="Pendampingan Digital Marketing UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pendampingan Laporan Keuangan UMKM
+                                    <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-tata-kelola-keuangan-bumdes"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        Pendampingan Akuntansi & Pertanggungjawaban BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
