@@ -36,7 +36,7 @@
             </div>
         </div>
     </section>
-    <section class="section-padding">
+    <section class="section-padding bg-f9">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-12 position-relative z-2 mb-lg-0 mb-10 wow img-custom-anim-left">
@@ -78,5 +78,182 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="services-section-1 section-padding position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 wow img-custom-anim-left">
+                    <div class="py-5">
+                        <p
+                            class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border bg-white position-relative z-2 mb-3">
+                            Pemberdayaan BUM Desa</p>
+                        <div class="ds-2 fw-bold text-black lh-sm position-relative z-2">Pelatihan BUM Desa</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Peningkatan Kapasitas & Kopentensi Pelaku UMKM.png') }}"
+                                    alt="Peningkatan Kapasitas & Kompetensi Pelaku UMKM" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
+                                        Peningkatan Kapasitas & Kompetensi Pelaku UMKM
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Pencatatan Transaksi Keuangan UMKM.png') }}"
+                                    alt="Pencatatan Transaksi Keuangan UMKM" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
+                                        Pencatatan Transaksi Keuangan UMKM
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Digital Marketing UMKM.png') }}"
+                                    alt="Digital Marketing UMKM" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
+                                        Digital Marketing UMKM
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Penysusunan Rencana UMKMMarketing UMKM.png') }}"
+                                    alt="Penyusunan Rencana UMKMMarketing UMKM" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
+                                        Penyusunan Rencana UMKM
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 position-relative z-1 ps-lg-2">
+                    <div class="row wow img-custom-anim-top">
+                        <div class="col mt-5">
+                            <img class="d-block mb-4"
+                                src="{{ asset('front/assets/images/program/pelatihan umkm 279x366.png') }}"
+                                alt="pelatiha-umkm-279x366" />
+                            <img class="d-block"
+                                src="{{ asset('front/assets/images/program/pelatihan umkm  282x190.png') }}"
+                                alt="pelatihan-umkm-282x190.png" />
+                        </div>
+                        <div class="col mb-5">
+                            <img class="d-block mb-4"
+                                src="{{ asset('front/assets/images/program/pelatihan umkm 341x329.png') }}"
+                                alt="pelatihan-umkm-341x329.png" />
+                            <img class="d-block"
+                                src="{{ asset('front/assets/images/program/pelatihan umkm 341x257.png') }}"
+                                alt="pelatihan-umkm-341x257.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-pink  h-500px w-50 position-absolute bottom-0 end-0 mb-8 d-none d-md-block" data-aos="fade-up">
+        </div>
+    </section>
+    <section class="services-section-1 section-padding bg-f9">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 offset-lg-1s position-relative  pe-lg-5">
+                    <div class="position-relative d-inline-flex">
+                        <img class="img-fluid position-relative z-1"
+                            src="{{ asset('front/assets/images/program/Pendampingan UMKM 601X601.png') }}"
+                            alt="image" />
+                        <div class="box-300-about position-absolute bg-gradient z-0"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow img-custom-anim-left">
+                    <div class="py-5">
+                        <p
+                            class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border bg-white position-relative z-2 mb-3">
+                            Pemberdayaan BUM Desa</p>
+                        <div class="ds-2 fw-bold text-black lh-sm position-relative z-2">Pendampingan BUM Desa</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Rencana Usaha UMKM.png') }}"
+                                    alt="Pendampingan Rencana Usaha UMKM" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
+                                        Pendampingan Rencana Usaha UMKM
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Digital Marketing UMKM.png') }}"
+                                    alt="Pendampingan Digital Marketing UMKM" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
+                                        Pendampingan Digital Marketing UMKM
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Pembuatan Profil Usaha dan NIB.png') }}"
+                                    alt="Pendampingan Pembuatan Profil Usaha dan NIB" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
+                                        Pendampingan Pembuatan Profil Usaha dan NIB
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Laporan Keuangan UMKM.png') }}"
+                                    alt="Pendampingan Laporan Keuangan UMKM" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
+                                        Pendampingan Laporan Keuangan UMKM
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        {{-- <div class="bg-pink  h-500px w-50 position-absolute bottom-0 end-0 mb-8 d-none d-md-block" data-aos="fade-up">
+        </div> --}}
     </section>
 @endsection
