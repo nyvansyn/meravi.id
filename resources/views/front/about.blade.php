@@ -44,6 +44,15 @@
                                 </div>
                                 <p class="fs-4 fw-normal mb-4"><b>Meravi.id</b> merupakan layanan terintegrasi Training
                                     Center, Event Organizer dan Kemitraan untuk Community Management & Empowerment.</p>
+
+                                <p class="fs-4 fw-normal mb-4">Kami sebagai mitra pelaksana program CSR/Pemberdayaan
+                                    masyarakat melalui BUM Desa dan UMKM. Kami bekerja sama dan didukung oleh komunitas
+                                    ABCGFM ( Academics, Business, Community, Government, Financial Institution, Media )
+                                </p>
+
+                                <p class="fs-4 fw-normal mb-4">Dengan berbagai layanan seperti Pelatihan, Pendampingan,
+                                    Inkubasi dan Kemitraan, Kami siap untuk membantu Anda dalam mengembangkan BUM Desa dan
+                                    UMKM</p>
                                 {{-- <div class="d-flex align-items-center mb-2">
                                     <i class="bi bi-check-circle me-2 text-primary"></i>
                                     <p class="mb-0">We Target on Business</p>

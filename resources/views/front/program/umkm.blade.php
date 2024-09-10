@@ -92,7 +92,7 @@
                                     alt="Penysusunan Rencana UMKMMarketing UMKM" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Penysusunan Rencana UMKM
+                                        Penyusunan Rencana Usaha UMKM
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />

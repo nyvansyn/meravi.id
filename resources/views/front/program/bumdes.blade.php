@@ -133,6 +133,20 @@
                                     </p> --}}
                                 </div>
                             </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Digital Marketing UMKM.png') }}"
+                                    alt="Digital Marketing UMKM" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-tatakelola-dan-manajemen-bum-desa"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        Pelatihan Peningkatan Kapasitas dan Kompetensi SDM Pengurus BUM Desa
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
@@ -260,6 +274,20 @@
                                     <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-tata-kelola-keuangan-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
                                         Pendampingan Akuntansi & Pertanggungjawaban BUM Desa
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Digital Marketing UMKM.png') }}"
+                                    alt="Pendampingan Digital Marketing UMKM" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-tata-kelola-keuangan-bumdes"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        Pendampingan bumdesnya nambah Pendampingan Kelembagaan BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
