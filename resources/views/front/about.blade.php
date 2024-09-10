@@ -42,15 +42,18 @@
                                     Tentang Kami</p>
                                 <div class="lh-1 ds-5 fw-bold text-black mb-3">PT. Meravi Visitama Indonesia (Meravi.id)
                                 </div>
-                                <p class="fs-4 fw-normal mb-4"><b>Meravi.id</b> merupakan layanan terintegrasi Training
+                                <p class="fs-4 fw-normal mb-4 text-justify"><b>Meravi.id</b> merupakan layanan terintegrasi
+                                    Training
                                     Center, Event Organizer dan Kemitraan untuk Community Management & Empowerment.</p>
 
-                                <p class="fs-4 fw-normal mb-4">Kami sebagai mitra pelaksana program CSR/Pemberdayaan
+                                <p class="fs-4 fw-normal mb-4 text-justify">Kami sebagai mitra pelaksana program
+                                    CSR/Pemberdayaan
                                     masyarakat melalui BUM Desa dan UMKM. Kami bekerja sama dan didukung oleh komunitas
                                     ABCGFM ( Academics, Business, Community, Government, Financial Institution, Media )
                                 </p>
 
-                                <p class="fs-4 fw-normal mb-4">Dengan berbagai layanan seperti Pelatihan, Pendampingan,
+                                <p class="fs-4 fw-normal mb-4 text-justify">Dengan berbagai layanan seperti Pelatihan,
+                                    Pendampingan,
                                     Inkubasi dan Kemitraan, Kami siap untuk membantu Anda dalam mengembangkan BUM Desa dan
                                     UMKM</p>
                                 {{-- <div class="d-flex align-items-center mb-2">
@@ -127,7 +130,7 @@
                                 </defs>
                             </svg>
                         </div>
-                        <div class="num stroke-red-home2 position-absolute fw-bold z-0">02</div>
+                        {{-- <div class="num stroke-red-home2 position-absolute fw-bold z-0">02</div> --}}
                     </div>
                 </div>
             </div>
@@ -198,7 +201,7 @@
                                 </defs>
                             </svg>
                         </div>
-                        <div class="num stroke-red-home2 position-absolute fw-bold z-0">03</div>
+                        {{-- <div class="num stroke-red-home2 position-absolute fw-bold z-0">03</div> --}}
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 mb-5 mb-lg-0">
