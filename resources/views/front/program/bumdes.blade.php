@@ -184,18 +184,18 @@
                     <div class="row wow img-custom-anim-top">
                         <div class="col mt-5">
                             <img class="d-block mb-4"
-                                src="{{ asset('front/assets/images/program/pelatihan umkm 279x366.png') }}"
+                                src="{{ asset('front/assets/images/program/pelatihan_bumdesa_279x366 .png') }}"
                                 alt="pelatiha-umkm-279x366" />
                             <img class="d-block"
-                                src="{{ asset('front/assets/images/program/pelatihan umkm  282x190.png') }}"
+                                src="{{ asset('front/assets/images/program/pelatihan_bumdesa_282x190.png') }}"
                                 alt="pelatihan-umkm-282x190.png" />
                         </div>
                         <div class="col mb-5">
                             <img class="d-block mb-4"
-                                src="{{ asset('front/assets/images/program/pelatihan umkm 341x329.png') }}"
+                                src="{{ asset('front/assets/images/program/pelatihan_bumdesa_341x329.png') }}"
                                 alt="pelatihan-umkm-341x329.png" />
                             <img class="d-block"
-                                src="{{ asset('front/assets/images/program/pelatihan umkm 341x257.png') }}"
+                                src="{{ asset('front/assets/images/program/pelatihan_bumdesa_341x257.png') }}"
                                 alt="pelatihan-umkm-341x257.png" />
                         </div>
                     </div>
@@ -211,7 +211,7 @@
                 <div class="col-lg-5 offset-lg-1s position-relative  pe-lg-5">
                     <div class="position-relative d-inline-flex">
                         <img class="img-fluid position-relative z-1"
-                            src="{{ asset('front/assets/images/program/Pendampingan UMKM 601X601.png') }}"
+                            src="{{ asset('front/assets/images/program/Pendampingan_BUM_Desa_601X601.png') }}"
                             alt="image" />
                         <div class="box-300-about position-absolute bg-gradient z-0"></div>
                     </div>
