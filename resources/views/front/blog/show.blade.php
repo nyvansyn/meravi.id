@@ -204,9 +204,9 @@
                     <div class="col-lg-6 offset-lg-3 col-12 text-center wow">
                         <p
                             class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border border-primary bg-white z-2">
-                            RELATED ARTICLES</p>
-                        <div class="ds-5 fw-bold text-black mb-5">Get the latest news, advice & best practice from blog.
-                        </div>
+                            Artikel Lainnya</p>
+                        {{-- <div class="ds-5 fw-bold text-black mb-5">Get the latest news, advice & best practice from blog.
+                        </div> --}}
                     </div>
                 </div>
                 <div class="row wow">

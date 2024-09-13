@@ -9,9 +9,9 @@
                     <p
                         class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border bg-white z-2">
                         portofolio</p>
-                    <h2 class="z-2 title-lg ds-2 fw-bold text-black mb-5">
+                    {{-- <h2 class="z-2 title-lg ds-2 fw-bold text-black mb-5">
                         Project yang telah terlaksana dan<br> dieksekusi dengan baik
-                    </h2>
+                    </h2> --}}
                 </div>
             </div>
         </div>
