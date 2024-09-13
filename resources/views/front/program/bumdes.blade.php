@@ -241,8 +241,8 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Digital Marketing UMKM.png') }}"
-                                    alt="Pendampingan Digital Marketing UMKM" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Kelembagaan BUM Desa.png') }}"
+                                    alt="Pendampingan Kelembagaan BUM Desa" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-tata-kelola-keuangan-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
@@ -255,8 +255,9 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Rencana Usaha UMKM.png') }}"
-                                    alt="Pendampingan Rencana Usaha UMKM" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Pemetaan Potensi & Pemilihan Usaha BUM Desa.png') }}"
+                                    alt="Pendampingan Pemetaan Potensi & Pemilihan Usaha BUM Desa"
+                                    class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-penyusunan-rencana-usaha-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
@@ -269,8 +270,9 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Digital Marketing UMKM.png') }}"
-                                    alt="Pendampingan Digital Marketing UMKM" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Tata Kelola & Manajemen Operasional BUM Desa.png') }}"
+                                    alt="Pendampingan Tata Kelola & Manajemen Operasional BUM Desa"
+                                    class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-tata-kelola-manajemen-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
@@ -283,8 +285,8 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Digital Marketing UMKM.png') }}"
-                                    alt="Pendampingan Digital Marketing UMKM" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pendampingan Akuntansi & Pertanggungjawaban BUM Desa.png') }}"
+                                    alt="Pendampingan Akuntansi & Pertanggungjawaban BUM Desa" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-tata-kelola-keuangan-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
