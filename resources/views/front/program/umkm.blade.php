@@ -1,4 +1,11 @@
 @extends('front.layouts.index')
+@push('seo')
+    <meta name="title" content="Pemberdayaan BUM Desa">
+    <meta name="description"
+        content="Kejar UMKM merupakan Komunitas Kelompok Belajar UMKM dalam mengelola Keuangan, Manajemen, dan Pemasaran UMKM">
+    <meta name="keywords" content="Pemberdayaan, kejar umkm, meravi.id">
+    <meta name="author" content="Meravi.id">
+@endpush
 @section('containt')
     <section class="about-section-1 pd-top-120px bg-f9 pd-bottom-120px">
         <div class="container">

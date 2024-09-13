@@ -1,4 +1,11 @@
 @extends('front.layouts.index')
+@push('seo')
+    <meta name="title" content="Pemberdayaan BUM Desa">
+    <meta name="description"
+        content="Bumdes.id bekerjasama dan didukung oleh komunitas ABCGFM (Academic, Business, Community, Government, Financial Institution, Media) untuk menumbuhkan dan mengembangkan BUM Desa di seluruh Indonesia">
+    <meta name="keywords" content="Pemberdayaan, bumdes, meravi.id">
+    <meta name="author" content="Meravi.id">
+@endpush
 @section('containt')
     <section class="about-section-1 pd-top-120px">
         <div class="container">
