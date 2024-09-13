@@ -92,8 +92,8 @@
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Peningkatan Kapasitas & Kopentensi Pelaku UMKM.png') }}"
-                                    alt="Peningkatan Kapasitas & Kompetensi Pelaku UMKM" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Training Of Trainer Pendamping Bumdes.png') }}"
+                                    alt="Training Of Trainer Pendamping Bumdes" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/training-of-trainers-pendamping-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
@@ -106,8 +106,8 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Pencatatan Transaksi Keuangan UMKM.png') }}"
-                                    alt="Pencatatan Transaksi Keuangan UMKM" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pelatihan Revitalisasi Bumdes Paska PP 11 Tahun 2021.png') }}"
+                                    alt="Pelatihan Revitalisasi Bumdes Paska PP 11 Tahun 2021" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-revitalisasi-bum-desa-paska-pp-11-tahun-2021"
                                         target="_blank" class="fs-2 fw-bold text-dark">
@@ -120,8 +120,8 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Digital Marketing UMKM.png') }}"
-                                    alt="Digital Marketing UMKM" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pelatihan Tatakelola dan Manajemen Bumdes.png') }}"
+                                    alt="Pelatihan Tatakelola dan Manajemen Bumdes" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-tatakelola-dan-manajemen-bum-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
@@ -134,8 +134,9 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Digital Marketing UMKM.png') }}"
-                                    alt="Digital Marketing UMKM" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pelatihan Peningkatan Kapasitas dan Kompetensi SDM Pengurus BUM Desa.png') }}"
+                                    alt="Pelatihan Peningkatan Kapasitas dan Kompetensi SDM Pengurus BUM Desa"
+                                    class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-tatakelola-dan-manajemen-bum-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
@@ -150,8 +151,8 @@
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Penysusunan Rencana UMKMMarketing UMKM.png') }}"
-                                    alt="Penyusunan Rencana UMKMMarketing UMKM" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pelatihan Penyusunan SOP Unit Usaha Bumdes.png') }}"
+                                    alt="Pelatihan Penyusunan SOP Unit Usaha Bumdes" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-penyusunan-sop-unit-usaha-bum-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
@@ -164,8 +165,8 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Digital Marketing UMKM.png') }}"
-                                    alt="Digital Marketing UMKM" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Pelatihan Penyusunan Laporan Keuangan Bumdes.png') }}"
+                                    alt="Pelatihan Penyusunan Laporan Keuangan Bumdes" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/pelatihan-penyusunan-laporan-keuangan-bum-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
@@ -178,8 +179,8 @@
                                 </div>
                             </div>
                             <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Penysusunan Rencana UMKMMarketing UMKM.png') }}"
-                                    alt="Penyusunan Rencana UMKMMarketing UMKM" class="align-self-start" />
+                                <img src="{{ asset('front/assets/images/program/icon/Kunjungan Sekolah Bumdes.png') }}"
+                                    alt="Kunjungan Sekolah Bumdes class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-kunjungan-sekolah-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
