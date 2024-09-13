@@ -1,9 +1,10 @@
 @extends('front.layouts.index')
 @push('seo')
-    <meta name="title" content="">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
+    <meta name="title" content="PT. Merapi Visitama Indonesia (Meravi.id)">
+    <meta name="description"
+        content="Meravi.id merupakan layanan terintegrasi, Training Center, Event Organizer dan Kemitraan untuk Community Management & Empowerment">
+    <meta name="keywords" content="about, tentang kami, meravi.id">
+    <meta name="author" content="Meravi.id">
 @endpush
 
 @section('containt')
