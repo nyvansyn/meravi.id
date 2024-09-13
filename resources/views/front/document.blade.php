@@ -1,9 +1,9 @@
 @extends('front.layouts.index')
 @push('seo')
-    <meta name="title" content="">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
+    <meta name="title" content="Download Dokumen">
+    <meta name="description" content="Download dokumen seputar BUM Desa dan UMKM">
+    <meta name="keywords" content="download, dokumen, meravi">
+    <meta name="author" content="Meravi.id">
 @endpush
 
 @section('containt')

@@ -1,9 +1,9 @@
 @extends('front.layouts.index')
 @push('seo')
-    <meta name="title" content="">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
+    <meta name="title" content="Mitra & Klien">
+    <meta name="description" content="Kami berkolaborasi bersama berbagai mitra strategis, Mari berkolaborasi dengan kami!">
+    <meta name="keywords" content="mitra, klien, meravi.id">
+    <meta name="author" content="Meravi.id">
 @endpush
 @section('containt')
     <section id="clinet">
@@ -13,10 +13,10 @@
                     <p
                         class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border bg-white z-2">
                         Mitra & Klien Kami</p>
-                    <div class="ds-2 fw-bold text-black lh-sm mb-5">
+                    {{-- <div class="ds-2 fw-bold text-black lh-sm mb-5">
                         Kami berkolaborasi bersama berbagai mitra strategis. <br />
                         Mari berkolaborasi dengan kami!
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="row mt-8 position-relative z-1">
                     <div class="position-relative" data-aos="fade-up">

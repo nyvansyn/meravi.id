@@ -40,7 +40,7 @@
                                 <p
                                     class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border bg-white">
                                     Tentang Kami</p>
-                                <div class="lh-1 ds-5 fw-bold text-black mb-3">PT. Meravi Visitama Indonesia (Meravi.id)
+                                <div class="lh-1 ds-6 fw-bold text-black mb-3">PT. Merapi Visitama Indonesia (Meravi.id)
                                 </div>
                                 <p class="fs-4 fw-normal mb-4 text-justify"><b>Meravi.id</b> merupakan layanan terintegrasi
                                     Training
