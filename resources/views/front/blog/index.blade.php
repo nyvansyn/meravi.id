@@ -1,5 +1,10 @@
 @extends('front.layouts.index')
-
+@push('seo')
+    <meta name="title" content="Artikel Terbaru">
+    <meta name="description" content="Dapatkan update berita terbaru seputar BUM Desa dan UMKM">
+    <meta name="keywords" content="article, artikel, bumdes, umkm, meravi">
+    <meta name="author" content="Meravi.id">
+@endpush
 @section('containt')
     <main>
         <!-- blog section-1 start -->
@@ -11,9 +16,7 @@
                             class="sub-title fs-5 px-4 py-2 d-none d-md-inline-flex text-primary rounded-pill border border-primary bg-white z-2">
                             Article</p>
                         <div class="title-lg ds-2 fw-bold text-white mb-3">Artikel Terbaru</div>
-                        <p class="text-white fs-2">Dapatkan update berita terbaru seputar BUM Desa dan UMKM, <br /> dan bisa
-                            ngga di
-                            setting yang artikel tag portofolio gak muncul disini?</p>
+                        <p class="text-white fs-2">Dapatkan update berita terbaru seputar BUM Desa dan UMKM</p>
                     </div>
                 </div>
             </div>
