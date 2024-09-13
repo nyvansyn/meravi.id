@@ -180,7 +180,7 @@
                             </div>
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Kunjungan Sekolah Bumdes.png') }}"
-                                    alt="Kunjungan Sekolah Bumdes class="align-self-start" />
+                                    alt="Kunjungan Sekolah Bumdes" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-kunjungan-sekolah-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
