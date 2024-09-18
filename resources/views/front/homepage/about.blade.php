@@ -29,7 +29,8 @@
                                 Pelatihan
                             </p>
                             <div>
-                                <a class="btn text-secondary" href="#">Selengkapnya</a>
+                                <a class="btn text-secondary" href="{{ url('blog/pelatihan-meraviid') }}"
+                                    target="__blank">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -40,7 +41,8 @@
                             <p class="fw-bold text-black my-3">
                                 Pendampingan
                             </p>
-                            <a class="btn text-secondary" href="#">Selengkapnya</a>
+                            <a class="btn text-secondary" href="{{ url('blog/pendampingan-meraviid') }}"
+                                target="__blank">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -52,7 +54,8 @@
                             <p class="fw-bold text-black my-3">
                                 Inkubasi
                             </p>
-                            <a class="btn text-secondary" href="#">Selengkapnya</a>
+                            <a class="btn text-secondary" href="{{ url('blog/inkubasi-meraviid') }}"
+                                target="__blank">Selengkapnya</a>
                         </div>
                     </div>
                     <div>
@@ -62,7 +65,8 @@
                             <p class="fw-bold text-black my-3">
                                 Kemitraan
                             </p>
-                            <a class="btn text-secondary" href="#">Selengkapnya</a>
+                            <a class="btn text-secondary" href="{{ url('blog/kemitraan-meraviid') }}"
+                                target="__blank">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
