@@ -197,7 +197,7 @@ class PostController extends Controller
             if ($request->hasFile('cover')) {
                 $this->deleteBlogImage($post);
                 if ($image = $request->file('cover')) {
-                    $postPath = '/back/assets/img/article';
+                    $postPath = 'back/assets/img/article';
                     $postImage = $image->getClientOriginalName();
                     $image->move($postPath, $postImage);
                 }
