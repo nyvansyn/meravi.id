@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="col-lg-6 col-12 mt-lg-0 mt-8">
-            {{-- <div class="row wow img-custom-anim-top">
+            <div class="row wow img-custom-anim-top">
                 <div class="col-md-6 col-12 px-10 px-md-0 d-flex flex-column pt-2 align-items-center">
                     <div>
                         <div class="card-hover text-center border py-5 mb-lg-5 mb-md-6 mb-5 card-services">
@@ -69,49 +69,28 @@
                         </div>
                     </div>
                 </div>
-            </div> --}}
-            <div class="container wow img-custom-anim-top">
-                <div class="row mb-lg-0 mb-4 pb-lg-3">
-                    <div class=" pt-2 col-6 mb-4 mb-lg-0">
-                        <a class="card-hover card-about text-center borders bg-secondary-1 p-3 rounded-4"
-                            href="{{ url('blog/pelatihan-meraviid') }}" target="_blank">
-                            <img class="rounded-4 img-fluid" src="{{ asset('front/assets/images/home/Pelatihan.png') }}"
-                                alt="Pelatihan" />
-                            <p class="fs-4 fw-bold text-black mt-2 mb-1">Pelatihan</p>
-                            <p class="fs-5 text-secondary">Selengkapnya</p>
-                        </a>
+                {{-- <div class="col-md-4 col-12 px-10 px-md-0 d-flex flex-column pt-2 align-items-center ">
+                    <div>
+                        <div class="card-hover text-center border py-5 mb-lg-5 mb-md-6 mb-5 card-services">
+                            <img class="img-fluid" src="{{asset('front/assets/images/home1/about/setting.png')}}" alt="abon" />
+                            <p class="fw-bold text-black my-3">
+                                Integrity <br />
+                                Driven
+                            </p>
+                            <a class="btn text-secondary" href="#">READ MORE</a>
+                        </div>
                     </div>
-                    <div class=" pt-2 col-6 mb-4 mb-lg-0">
-                        <a class="card-hover card-about text-center borders bg-secondary-1 p-3 rounded-4"
-                            href="{{ url('blog/pendampingan-meraviid') }}" target="_blank">
-                            <img class="rounded-4 img-fluid"
-                                src="{{ asset('front/assets/images/home/Pendampingan.png') }}" alt="Pendampingan" />
-                            <p class="fs-4 fw-bold text-black mt-2 mb-1">Pendampingan</p>
-                            <p class="fs-5 text-secondary">Selengkapnya</p>
-                        </a>
+                    <div>
+                        <div class="card-hover text-center border py-5 mb-lg-5 mb-md-6 mb-5 card-services">
+                            <img class="img-fluid" src="{{asset('front/assets/images/home1/about/world.png')}}" alt="abon" />
+                            <p class="fw-bold text-black my-3">
+                                Empowering <br />
+                                Partnerships
+                            </p>
+                            <a class="btn text-secondary" href="#">READ MORE</a>
+                        </div>
                     </div>
-                </div>
-                <div class="row pb-lg-3">
-                    <div class=" pt-2 col-6 mb-4 mb-lg-0">
-                        <a class="card-hover card-about text-center borders bg-secondary-1 p-3 rounded-4"
-                            href="{{ url('blog/inkubasi-meraviid') }}" target="_blank">
-                            <img class="rounded-4 img-fluid" src="{{ asset('front/assets/images/home/Inkubasi.png') }}"
-                                alt="Inkubasi" />
-                            <p class="fs-4 fw-bold text-black mt-2 mb-1">Inkubasi</p>
-                            <p class="fs-5 text-secondary">Selengkapnya</p>
-                        </a>
-                    </div>
-                    <div class=" pt-2 col-6 mb-4 mb-lg-0">
-                        <a class="card-hover card-about text-center borders bg-secondary-1 p-3 rounded-4"
-                            href="{{ url('blog/kemitraan-meraviid') }}" target="_blank">
-                            <img class="rounded-4 img-fluid" src="{{ asset('front/assets/images/home/Mitra.png') }}"
-                                alt="Kemitraan" />
-                            <p class="fs-4 fw-bold text-black mt-2 mb-1">Kemitraan</p>
-                            <p class="fs-5 text-secondary">Selengkapnya</p>
-                        </a>
-                    </div>
-
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

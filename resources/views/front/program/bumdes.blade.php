@@ -17,10 +17,12 @@
                             Pemberdayaan BUM Desa</p>
                         <h2 class="ds-2 lh-1 fw-bold text-dark mb-5">Bumdes.id</h2>
                         <p class="mb-4 "><span class="fw-bold">Bumdes.id</span> merupakan program yang diinisiasi dan
-                            dikelola oleh Syncore Indonesia pada tahun 2017 dan dalam perkembangannya pada tahun 2020 resmi
-                            dikelola oleh Meravi.id sebagai salah satu unit usahanya. Bumdes.id bekerjasama dan didukung
-                            oleh komunitas ABCGFM (Academic, Business, Community, Government, Financial Institution, Media)
-                            untuk menumbuhkan, menguatkan dan mengembangkan BUM Desa di seluruh Indonesia.
+                            dikelola oleh Syncore Indonesia sejak tahun 2017 dengan bekerjasama dan didukung komunitas
+                            ABCGFM ( Academic, Business, Community, Government, Financial Institution, Media ) untuk
+                            membantu menumbuhkan, menguatkan dan mengembangkan BUM Desa di seluruh Indonesia. Dalam
+                            perkembangannya, pada tahun 2020 <span class="fw-bold">bumdes.id</span> resmi dikelola oleh
+                            Merapi Visitama Indonesia sebagai
+                            salah satu unit usaha.
                         </p>
                         {{-- <p class="mb-6">That empowers you to take control of your operations to the boost productivity, and
                             elevate your business to new heights. Abon is not just a software solution.</p> --}}
