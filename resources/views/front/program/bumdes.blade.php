@@ -20,7 +20,7 @@
                             dikelola oleh Syncore Indonesia pada tahun 2017 dan dalam perkembangannya pada tahun 2020 resmi
                             dikelola oleh Meravi.id sebagai salah satu unit usahanya. Bumdes.id bekerjasama dan didukung
                             oleh komunitas ABCGFM (Academic, Business, Community, Government, Financial Institution, Media)
-                            untuk menumbuhkan dan mengembangkan BUM Desa di seluruh Indonesia.
+                            untuk menumbuhkan, menguatkan dan mengembangkan BUM Desa di seluruh Indonesia.
                         </p>
                         {{-- <p class="mb-6">That empowers you to take control of your operations to the boost productivity, and
                             elevate your business to new heights. Abon is not just a software solution.</p> --}}
@@ -104,7 +104,7 @@
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/training-of-trainers-pendamping-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        Training Of Trainer Pendamping Bumdes
+                                        Training Of Trainers ( TOT ) Pendamping BUMDES
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -118,7 +118,7 @@
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-revitalisasi-bum-desa-paska-pp-11-tahun-2021"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        ⁠Pelatihan Revitalisasi Bumdes Paska PP 11 Tahun 2021
+                                        ⁠Pelatihan Revitalisasi BUM Desa Paska PP 11 tahun 2021
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -132,7 +132,7 @@
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-tatakelola-dan-manajemen-bum-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        ⁠Pelatihan Tatakelola dan Manajemen Bumdes
+                                        Pelatihan Tata Kelola dan Manajemen BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -147,7 +147,7 @@
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-tatakelola-dan-manajemen-bum-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pelatihan Peningkatan Kapasitas dan Kompetensi SDM Pengurus BUM Desa
+                                        Pelatihan Peningkatan Kapasitas & Kompetensi SDM Pengurus BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -163,7 +163,7 @@
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-penyusunan-sop-unit-usaha-bum-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        ⁠Pelatihan Penyusunan SOP Unit Usaha Bumdes
+                                        Pelatihan Penyusunan SOP Unit Usaha BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -177,7 +177,7 @@
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/pelatihan-penyusunan-laporan-keuangan-bum-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        ⁠Pelatihan Penyusunan Laporan Keuangan Bumdes
+                                        ⁠Pelatihan Penyusunan Laporan Keuangan BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -191,7 +191,7 @@
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-kunjungan-sekolah-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        Kunjungan Sekolah Bumdes
+                                        Kunjungan Sekolah BUMDES
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
