@@ -3,13 +3,14 @@
         <div class="row">
             <div class="col-lg-6 text-start position-relative">
                 <div class="scroll-move-right">
-                    <div class="stroke-black fw-bold position-absolute top-0 start-0 translate-middle-y z-0">Quote</div>
+                    <div class="stroke-black fw-bold position-absolute top-0 start-0 translate-middle-y z-0">Contact
+                    </div>
                 </div>
                 <div class="z-2 position-relative wow img-custom-anim-left">
                     <p
                         class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border border-primary bg-white bg-black z-2">
-                        get a quote</p>
-                    <div class="title-lg ds-2 fw-bold text-white mb-5">Catch Us Here</div>
+                        Kontak</p>
+                    {{-- <div class="title-lg ds-2 fw-bold text-white mb-5">Hubungi kami di</div> --}}
                 </div>
                 <div class="row wow img-custom-anim-left">
                     <div class="col-md-6">
@@ -37,7 +38,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <p class="text-secondary ms-3 fs-4 mb-0">Telphone</p>
+                                <p class="text-primary ms-3 fs-4 mb-0">Whatsapp/SMS</p>
                             </div>
                             <span class="text-white fs-3">087-805-900-800 (Sekretariat Meravi.id)
                             </span>
@@ -62,7 +63,7 @@
                                             fill="white" />
                                     </g>
                                 </svg>
-                                <p class="text-secondary ms-3 fs-4 mb-0">Email</p>
+                                <p class="text-primary ms-3 fs-4 mb-0">Email</p>
                             </div>
                             <span class="text-white fs-3">sekretariat.meravi.id@gmail.com</span>
                         </div>
@@ -104,7 +105,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <p class="text-secondary ms-3 fs-4 mb-0">Senin - Jum'at</p>
+                                <p class="text-primary ms-3 fs-4 mb-0">Senin - Jum'at</p>
                             </div>
                             <span class="text-white fs-3">09.00-17.00 WIB
                             </span>
@@ -145,7 +146,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <p class="text-secondary ms-3 fs-4 mb-0">Sabtu</p>
+                                <p class="text-primary ms-3 fs-4 mb-0">Sabtu</p>
                             </div>
                             <span class="text-white fs-3">09.00-14.00 WIB
                             </span>
@@ -164,12 +165,16 @@
                                         d="M8 7.5C9.03553 7.5 9.875 6.66053 9.875 5.625C9.875 4.58947 9.03553 3.75 8 3.75C6.96447 3.75 6.125 4.58947 6.125 5.625C6.125 6.66053 6.96447 7.5 8 7.5Z"
                                         fill="#F94743" />
                                 </svg>
-                                <p class="text-secondary ms-3 fs-4 mb-0">Alamat Kantor</p>
+                                <p class="text-primary ms-3 fs-4 mb-0">Alamat Kantor</p>
                             </div>
                             <span class="text-white fs-3">Jl. Ringroad Selatan no.6, Glugo, Panggungharjo, Kec.
                                 Sewon, Kab. Bantul, Daerah Istimewa Yogyakarta, 55188
                             </span>
                         </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63241.257456890125!2d110.28548240661627!3d-7.834345220332074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5793a62e6df3%3A0xed394103a8b0634e!2sMeravi.id!5e0!3m2!1sid!2sid!4v1726799535830!5m2!1sid!2sid"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
