@@ -70,7 +70,7 @@
                     <img class="w-100" src="{{ asset('front/assets/images/about/Visi.png') }}" alt="Visi" />
                 </div>
                 <div
-                    class="col-lg-6 col-12 position-relative box-text overflow-hidden border-bottom border-primary bg-white ps-lg-8 ps-0">
+                    class="col-lg-6 col-12 position-relative box-text overflow-hidden border-bottom border-primary bg-white ps-lg-8 p-5">
                     <div class="pt-5">
                         {{-- <div class="scroll-move-right">
                             <div class="stroke lh-base fw-bold z-1 position-absolute top-0 start-0 translate-middle-y">
@@ -143,7 +143,7 @@
         <div class="container pd-bottom-120px pd-top-120px">
             <div class="row">
                 <div
-                    class="col-lg-6 col-12 position-relative box-text overflow-hidden border-bottom border-primary bg-white ps-lg-8 ps-0">
+                    class="col-lg-6 col-12 position-relative box-text overflow-hidden border-bottom border-primary bg-white ps-lg-8 p-5">
                     <div class="pt-5">
 
                         <div class="wow img-custom-anim-top">
