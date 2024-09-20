@@ -16,10 +16,9 @@
                             class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border border-secondary-1 bg-white">
                             Pemberdayaan UMKM</p>
                         <h2 class="ds-2 lh-1 fw-bold text-dark mb-5">Kejar UMKM</h2>
-                        <p class="mb-4 "><span class="fw-bold">Kejar UMKM</span> merupakan Komunitas Kelompok Belajar UMKM
-                            dalam mengelola Keuangan,
-                            Manajemen, dan Pemasaran UMKM. Dengan berjejaring di Kejar UMKM, diharapkan para Pelaku UMKM
-                            dapat berkontribusi dan berkolaborasi dalam pengembangan usaha bisnis UMKM.
+                        <p class="mb-4 "><span class="fw-bold">Kejar UMKM</span> merupakan program Kelompok Belajar UMKM
+                            dalam mengelola Keuangan, Manajemen dan Pemasaran UMKM. Dengan program Kejar UMKM ini diharapkan
+                            para Pelaku UMKM dapat berkontribusi dan berkolaborasi dalam pengembangan usaha bisnis UMKM.
                         </p>
                         {{-- <p class="mb-6">That empowers you to take control of your operations to the boost productivity, and
                             elevate your business to new heights. Abon is not just a software solution.</p> --}}
@@ -55,10 +54,10 @@
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Peningkatan Kapasitas & Kopentensi Pelaku UMKM.png') }}"
-                                    alt="Peningkatan Kapasitas & Kopentensi Pelaku UMKM" class="align-self-start" />
+                                    alt="Peningkatan Kapasitas & Kompetensi Pelaku UMKM" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Peningkatan Kapasitas & Kopentensi Pelaku UMKM
+                                        Peningkatan Kapasitas & Kompetensi Pelaku UMKM
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
