@@ -15,7 +15,7 @@
                     <div class="position-relative z-1 text-center">
                         <div class="wow img-custom-anim-left">
                             <img class="w-75 z-1 position-relative"
-                                src="{{ asset('front/assets/images/about/Tentang-Meravi.png') }}" alt="abon" />
+                                src="{{ asset('front/assets/images/about/Tentang-Meravi.png') }}" alt="Tentang Meravi" />
                         </div>
                         {{-- <div class="position-absolute bottom-0 start-0 mb-4">
                             <div class="floating-card position-relative bg-white px-3 z-1">
@@ -67,7 +67,7 @@
         <div class="container pd-bottom-120px">
             <div class="row">
                 <div class="col-lg-6 col-12 position-relative z-2 mb-lg-0 mb-10 wow img-custom-anim-left">
-                    <img class="w-100" src="{{ asset('front/assets/images/about/Visi.png') }}" alt="Visi" />
+                    <img class="w-100" src="{{ asset('front/assets/images/about/Visi.png') }}" alt="Visi Kami" />
                 </div>
                 <div
                     class="col-lg-6 col-12 position-relative box-text overflow-hidden border-bottom border-primary bg-white ps-lg-8 p-5">
@@ -184,7 +184,7 @@
                 </div>
                 <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                     <div class="zoom-img wow img-custom-anim-left">
-                        <img src="{{ asset('front/assets/images/about/Misi.png') }}" alt="abon" />
+                        <img src="{{ asset('front/assets/images/about/Misi.png') }}" alt="Misi Kami" />
                     </div>
                 </div>
 
