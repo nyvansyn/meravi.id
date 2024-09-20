@@ -73,7 +73,7 @@
             <div class="container wow img-custom-anim-top">
                 <div class="row mb-lg-0 mb-4 pb-lg-3">
                     <div class=" pt-2 col-6 mb-4 mb-lg-0">
-                        <a class="card-hover card-about text-center borders bg-secondary-1 p-3 rounded-4"
+                        <a class="card-hover card-about text-center borders bg-secondary-1 pt-lg-5 pb-lg-1 rounded-4"
                             href="{{ url('blog/pelatihan-meraviid') }}" target="_blank">
                             <img class="rounded-4 img-fluid" src="{{ asset('front/assets/images/home/Pelatihan.png') }}"
                                 alt="Pelatihan" />
@@ -82,7 +82,7 @@
                         </a>
                     </div>
                     <div class=" pt-2 col-6 mb-4 mb-lg-0">
-                        <a class="card-hover card-about text-center borders bg-secondary-1 p-3 rounded-4"
+                        <a class="card-hover card-about text-center borders bg-secondary-1 pt-lg-5 pb-lg-1 rounded-4"
                             href="{{ url('blog/pendampingan-meraviid') }}" target="_blank">
                             <img class="rounded-4 img-fluid"
                                 src="{{ asset('front/assets/images/home/Pendampingan.png') }}" alt="Pendampingan" />
@@ -93,7 +93,7 @@
                 </div>
                 <div class="row pb-lg-3">
                     <div class=" pt-2 col-6 mb-4 mb-lg-0">
-                        <a class="card-hover card-about text-center borders bg-secondary-1 p-3 rounded-4"
+                        <a class="card-hover card-about text-center borders bg-secondary-1 pt-lg-5 pb-lg-1 rounded-4"
                             href="{{ url('blog/inkubasi-meraviid') }}" target="_blank">
                             <img class="rounded-4 img-fluid" src="{{ asset('front/assets/images/home/Inkubasi.png') }}"
                                 alt="Inkubasi" />
@@ -102,7 +102,7 @@
                         </a>
                     </div>
                     <div class=" pt-2 col-6 mb-4 mb-lg-0">
-                        <a class="card-hover card-about text-center borders bg-secondary-1 p-3 rounded-4"
+                        <a class="card-hover card-about text-center borders bg-secondary-1 pt-lg-5 pb-lg-1 rounded-4"
                             href="{{ url('blog/kemitraan-meraviid') }}" target="_blank">
                             <img class="rounded-4 img-fluid" src="{{ asset('front/assets/images/home/Mitra.png') }}"
                                 alt="Kemitraan" />

@@ -202,7 +202,7 @@
                         <p
                             class="sub-title fs-5 px-4 py-2 d-inline-flex text-primary text-uppercase rounded-pill border bg-white z-2">
                             testimonials</p>
-                        <div class="z-2 lh-sm ds-2 fw-bold text-black mb-5">What our Clients say</div>
+                        <div class="z-2 lh-sm ds-2 fw-bold text-black mb-5">Apa yang Mereka Katakan</div>
                     </div>
                     <div class="col-4 d-none d-lg-block justify-content-between position-absolute bottom-0 start-0">
                         <div class="swiper-button-next"></div>
