@@ -177,7 +177,7 @@ class PostController extends Controller
             list($type, $data) = explode(';', $data);
             list(, $data)      = explode(',', $data);
             $imgeData = base64_decode($data);
-            $image_name = "/back/assets/img/article/" . time() . $item . '.png';
+            $image_name = "back/assets/img/article/" . time() . $item . '.png';
             $path = public_path() . $image_name;
             file_put_contents($path, $imgeData);
 

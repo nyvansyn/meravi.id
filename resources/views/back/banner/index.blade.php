@@ -11,7 +11,7 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <table class="table table-striped table-hover table-fw-widget" id="table4">
+                        <table class="table table-striped table-hover table-responsive table-fw-widget" id="table4">
                             <thead>
                                 <tr>
                                     <th>No</th>

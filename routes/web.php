@@ -45,9 +45,9 @@ Route::get('/blog/{slug}', [FrontController::class, 'blogShow'])->name('blog.sho
 Route::get('/blog/kategori/{slug}', [FrontController::class, 'category'])->name('blog.category');
 Route::get('/blog/tag/{slug}', [FrontController::class, 'tag'])->name('blog.tag');
 
-// Route::get('/blog/detail', function () {
-//     return view('front.blog.show');
-// });
+Route::get('/pelatihan-meraviid', function () {
+    return view('front.service.pelatihan');
+});
 
 Route::get('/masuk', function () {
     return view('back.auth.login');

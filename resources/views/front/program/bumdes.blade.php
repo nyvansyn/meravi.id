@@ -270,7 +270,8 @@
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-penyusunan-rencana-usaha-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        ⁠Pendampingan Pemetaan Potensi & Pemilihan Usaha BUM Desa
+                                        ⁠Pendampingan Set Up Bisnis BUM Desa
+
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -285,7 +286,7 @@
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-tata-kelola-manajemen-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pendampingan Tata Kelola & Manajemen Operasional BUM Desa
+                                        Pendampingan Tata Kelola Manajemen dan keuangan BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -299,7 +300,8 @@
                                 <div class="px-4">
                                     <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-tata-kelola-keuangan-bumdes"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pendampingan Akuntansi & Pertanggungjawaban BUM Desa
+                                        Paket Pendampingan BUM Desa 1 Tahun
+
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
