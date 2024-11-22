@@ -102,11 +102,11 @@
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Training Of Trainer Pendamping Bumdes.png') }}"
-                                    alt="Training Of Trainer Pendamping Bumdes" class="align-self-start" />
+                                    alt="Pelatihan Revitalisasi BUM Desa" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="https://bumdes.id/id/pelatihan/detail/training-of-trainers-pendamping-bumdes"
+                                    <a href="https://meravi.id/blog/pelatihan-revitalisasi-badan-usaha-milik-desa-pasca-peraturan-pemerintah-no-11-tahun-2021"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        Training Of Trainers ( TOT ) Pendamping BUMDES
+                                        Pelatihan Revitalisasi BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -116,11 +116,11 @@
                             </div>
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Pelatihan Revitalisasi Bumdes Paska PP 11 Tahun 2021.png') }}"
-                                    alt="Pelatihan Revitalisasi Bumdes Paska PP 11 Tahun 2021" class="align-self-start" />
+                                    alt="Pelatihan Legalitas BUM Desa" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-revitalisasi-bum-desa-paska-pp-11-tahun-2021"
+                                    <a href="https://meravi.id/blog/pelatihan-legalitas-badan-usaha-milik-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        ⁠Pelatihan Revitalisasi BUM Desa Paska PP 11 tahun 2021
+                                        Pelatihan Legalitas BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -130,11 +130,11 @@
                             </div>
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Pelatihan Tatakelola dan Manajemen Bumdes.png') }}"
-                                    alt="Pelatihan Tatakelola dan Manajemen Bumdes" class="align-self-start" />
+                                    alt="⁠Pelatihan Model Bisnis BUM Desa" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-tatakelola-dan-manajemen-bum-desa"
+                                    <a href="https://meravi.id/blog/pelatihan-model-bisnis-badan-usaha-milik-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pelatihan Tata Kelola dan Manajemen BUM Desa
+                                        ⁠Pelatihan Model Bisnis BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -144,28 +144,12 @@
                             </div>
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Pelatihan Peningkatan Kapasitas dan Kompetensi SDM Pengurus BUM Desa.png') }}"
-                                    alt="Pelatihan Peningkatan Kapasitas dan Kompetensi SDM Pengurus BUM Desa"
+                                    alt="⁠Pelatihan Manajemen Operasional BUM Desa"
                                     class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-tatakelola-dan-manajemen-bum-desa"
+                                    <a href="https://meravi.id/blog/pelatihan-manajemen-operasional-badan-usaha-milik-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pelatihan Peningkatan Kapasitas & Kompetensi SDM Pengurus BUM Desa
-                                    </a>
-                                    {{-- <p class="mb-5 pe-2">
-                                        Capitalize on low hanging fruit to <br />
-                                        identify a ballpark value added activity
-                                    </p> --}}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12">
-                            <div class="d-flex mt-2">
-                                <img src="{{ asset('front/assets/images/program/icon/Pelatihan Penyusunan SOP Unit Usaha Bumdes.png') }}"
-                                    alt="Pelatihan Penyusunan SOP Unit Usaha Bumdes" class="align-self-start" />
-                                <div class="px-4">
-                                    <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-pelatihan-penyusunan-sop-unit-usaha-bum-desa"
-                                        target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pelatihan Penyusunan SOP Unit Usaha BUM Desa
+                                        ⁠Pelatihan Manajemen Operasional BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -177,9 +161,25 @@
                                 <img src="{{ asset('front/assets/images/program/icon/Pelatihan Penyusunan Laporan Keuangan Bumdes.png') }}"
                                     alt="Pelatihan Penyusunan Laporan Keuangan Bumdes" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="https://bumdes.id/id/pelatihan/detail/pelatihan-penyusunan-laporan-keuangan-bum-desa"
+                                    <a href="https://meravi.id/blog/pelatihan-tata-kelola-keuangan-badan-usaha-milik-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        ⁠Pelatihan Penyusunan Laporan Keuangan BUM Desa
+                                        ⁠Pelatihan Tata Kelola Keuangan
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Kunjungan Sekolah Bumdes.png') }}"
+                                    alt="⁠Pelatihan Pemasaran BUM Desa" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="https://meravi.id/blog/pelatihan-pemasaran-badan-usaha-milik-desa"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        ⁠Pelatihan Pemasaran BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -189,11 +189,39 @@
                             </div>
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Kunjungan Sekolah Bumdes.png') }}"
-                                    alt="Kunjungan Sekolah Bumdes" class="align-self-start" />
+                                    alt="⁠Pelatihan Sinergi dan Kolaborasi BUM Desa" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="https://bumdes.id/id/pelatihan/detail/term-of-refrence-tor-kunjungan-sekolah-bumdes"
+                                    <a href="https://meravi.id/blog/pelatihan-sinergi-dan-kolaborasi-badan-usaha-milik-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        Kunjungan Sekolah BUMDES
+                                        ⁠Pelatihan Sinergi dan Kolaborasi BUM Desa
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Kunjungan Sekolah Bumdes.png') }}"
+                                    alt="Pelatihan Peningkatan Soft Skill SDM BUM Desa" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="https://meravi.id/blog/pelatihan-peningkatan-soft-skill-sumber-daya-manusia-badan-usaha-milik-desa"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        Pelatihan Peningkatan Soft Skill SDM BUM Desa
+                                    </a>
+                                    {{-- <p class="mb-5 pe-2">
+                                        Capitalize on low hanging fruit to <br />
+                                        identify a ballpark value added activity
+                                    </p> --}}
+                                </div>
+                            </div>
+                            <div class="d-flex mt-2">
+                                <img src="{{ asset('front/assets/images/program/icon/Kunjungan Sekolah Bumdes.png') }}"
+                                    alt="⁠Pelatihan Peningkatan Kapasitas & Kompetensi SDM Pengurus BUM Desa" class="align-self-start" />
+                                <div class="px-4">
+                                    <a href="https://meravi.id/blog/pelatihan-peningkatan-kapasitas-kompetensi-sdm-pengurus-bum-desa"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        ⁠Pelatihan Peningkatan Kapasitas & Kompetensi SDM Pengurus BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />

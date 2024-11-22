@@ -46,6 +46,8 @@
                                             <a class="btn btn-space btn-warning"
                                                 href="{{ route('admin.post.edit', $post->id) }}"><i
                                                     class="icon mdi mdi-edit"></i></a>
+                                            <a href="{{ route('blog.show', $post->slug) }}" target="_blank"
+                                                class="btn btn-space btn-info"><i class="icon mdi mdi-eye"></i></a>
                                             <form action="{{ route('admin.post.destroy', $post->id) }}" method="post">
                                                 @csrf
                                                 @method('POST')
