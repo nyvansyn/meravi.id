@@ -144,8 +144,7 @@
                             </div>
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Pelatihan Peningkatan Kapasitas dan Kompetensi SDM Pengurus BUM Desa.png') }}"
-                                    alt="⁠Pelatihan Manajemen Operasional BUM Desa"
-                                    class="align-self-start" />
+                                    alt="⁠Pelatihan Manajemen Operasional BUM Desa" class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://meravi.id/blog/pelatihan-manajemen-operasional-badan-usaha-milik-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
@@ -217,7 +216,8 @@
                             </div>
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Kunjungan Sekolah Bumdes.png') }}"
-                                    alt="⁠Pelatihan Peningkatan Kapasitas & Kompetensi SDM Pengurus BUM Desa" class="align-self-start" />
+                                    alt="⁠Pelatihan Peningkatan Kapasitas & Kompetensi SDM Pengurus BUM Desa"
+                                    class="align-self-start" />
                                 <div class="px-4">
                                     <a href="https://meravi.id/blog/pelatihan-peningkatan-kapasitas-kompetensi-sdm-pengurus-bum-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
@@ -281,9 +281,9 @@
                                 <img src="{{ asset('front/assets/images/program/icon/Pendampingan Kelembagaan BUM Desa.png') }}"
                                     alt="Pendampingan Kelembagaan BUM Desa" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-tata-kelola-keuangan-bumdes"
-                                        target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pendampingan Kelembagaan BUM Desa
+                                    <a href="https://meravi.id/blog/pendampingan-kelembagaan-bum-desa" target="_blank"
+                                        class="fs-2 fw-bold text-dark">
+                                        ⁠Pendampingan Kelembagaan BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -296,8 +296,8 @@
                                     alt="Pendampingan Pemetaan Potensi & Pemilihan Usaha BUM Desa"
                                     class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-penyusunan-rencana-usaha-bumdes"
-                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                    <a href="https://meravi.id/blog/pendampingan-set-up-bisnis-bum-desa" target="_blank"
+                                        class="fs-2 fw-bold text-dark">
                                         ⁠Pendampingan Set Up Bisnis BUM Desa
 
                                     </a>
@@ -312,9 +312,9 @@
                                     alt="Pendampingan Tata Kelola & Manajemen Operasional BUM Desa"
                                     class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-tata-kelola-manajemen-bumdes"
+                                    <a href="https://meravi.id/blog/pendampingan-tata-kelola-manajemen-dan-keuangan-bum-desa"
                                         target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pendampingan Tata Kelola Manajemen dan keuangan BUM Desa
+                                        ⁠Pendampingan Tata Kelola Manajemen Dan Keuangan BUM Desa
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -326,9 +326,9 @@
                                 <img src="{{ asset('front/assets/images/program/icon/Pendampingan Akuntansi & Pertanggungjawaban BUM Desa.png') }}"
                                     alt="Pendampingan Akuntansi & Pertanggungjawaban BUM Desa" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="https://bumdes.id/id/pendampingan/detail/term-of-refrence-tor-pendampingan-tata-kelola-keuangan-bumdes"
-                                        target="_blank" class="fs-2 fw-bold text-dark">
-                                        Paket Pendampingan BUM Desa 1 Tahun
+                                    <a href="https://meravi.id/blog/paket-pendampingan-bum-desa-1-tahun" target="_blank"
+                                        class="fs-2 fw-bold text-dark">
+                                        ⁠Paket Pendampingan BUM Desa 1 Tahun
 
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
