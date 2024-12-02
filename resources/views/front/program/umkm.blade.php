@@ -158,10 +158,11 @@
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Pendampingan Rencana Usaha UMKM.png') }}"
-                                    alt="Pendampingan Rencana Usaha UMKM" class="align-self-start" />
+                                    alt="⁠Pendampingan Rencana Usaha UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pendampingan Rencana Usaha UMKM
+                                    <a href="https://meravi.id/blog/pendampingan-rencana-usaha-umkm" target="_blank"
+                                        class="fs-2 fw-bold text-dark">
+                                        ⁠Pendampingan Rencana Usaha UMKM
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -173,7 +174,8 @@
                                 <img src="{{ asset('front/assets/images/program/icon/Pendampingan Digital Marketing UMKM.png') }}"
                                     alt="Pendampingan Digital Marketing UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
+                                    <a href="https://meravi.id/blog/pendampingan-digital-marketing-umkm" target="_blank"
+                                        class="fs-2 fw-bold text-dark">
                                         Pendampingan Digital Marketing UMKM
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
@@ -188,7 +190,8 @@
                                 <img src="{{ asset('front/assets/images/program/icon/Pendampingan Pembuatan Profil Usaha dan NIB.png') }}"
                                     alt="Pendampingan Pembuatan Profil Usaha dan NIB" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
+                                    <a href="https://meravi.id/blog/pendampingan-pembuatan-profil-usaha-dan-nib"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
                                         Pendampingan Pembuatan Profil Usaha dan NIB
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
@@ -201,7 +204,8 @@
                                 <img src="{{ asset('front/assets/images/program/icon/Pendampingan Laporan Keuangan UMKM.png') }}"
                                     alt="Pendampingan Laporan Keuangan UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
+                                    <a href="https://meravi.id/blog/pendampingan-laporan-keuangan-umkm" target="_blank"
+                                        class="fs-2 fw-bold text-dark">
                                         Pendampingan Laporan Keuangan UMKM
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
