@@ -54,10 +54,12 @@
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Peningkatan Kapasitas & Kopentensi Pelaku UMKM.png') }}"
-                                    alt="Peningkatan Kapasitas & Kompetensi Pelaku UMKM" class="align-self-start" />
+                                    alt="⁠Pelatihan Peningkatan Kapasitas & Kompetensi Pelaku UMKM"
+                                    class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Peningkatan Kapasitas & Kompetensi Pelaku UMKM
+                                    <a href="https://meravi.id/blog/pelatihan-peningkatan-kapasitas-kompetensi-pelaku-umkm"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        ⁠Pelatihan Peningkatan Kapasitas & Kompetensi Pelaku UMKM
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -67,10 +69,11 @@
                             </div>
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Pencatatan Transaksi Keuangan UMKM.png') }}"
-                                    alt="Pencatatan Transaksi Keuangan UMKM" class="align-self-start" />
+                                    alt="Pelatihan Pencatatan Transaksi Keuangan UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Pencatatan Transaksi Keuangan UMKM
+                                    <a href="https://meravi.id/blog/pelatihan-pencatatan-transaksi-keuangan-umkm"
+                                        target="_blank" class="fs-2 fw-bold text-dark">
+                                        Pelatihan Pencatatan Transaksi Keuangan UMKM
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -82,10 +85,11 @@
                         <div class="col-md-6 col-12">
                             <div class="d-flex mt-2">
                                 <img src="{{ asset('front/assets/images/program/icon/Digital Marketing UMKM.png') }}"
-                                    alt="Digital Marketing UMKM" class="align-self-start" />
+                                    alt="⁠Pelatihan Digital Marketing UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Digital Marketing UMKM
+                                    <a href="https://meravi.id/blog/pelatihan-digital-marketing-umkm" target="_blank"
+                                        class="fs-2 fw-bold text-dark">
+                                        ⁠Pelatihan Digital Marketing UMKM
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
@@ -97,8 +101,9 @@
                                 <img src="{{ asset('front/assets/images/program/icon/Penysusunan Rencana UMKMMarketing UMKM.png') }}"
                                     alt="Penysusunan Rencana UMKMMarketing UMKM" class="align-self-start" />
                                 <div class="px-4">
-                                    <a href="" target="_blank" class="fs-2 fw-bold text-dark">
-                                        Penyusunan Rencana Usaha UMKM
+                                    <a href="https://meravi.id/blog/pelatihan-penyusunan-rencana-usaha-umkm" target="_blank"
+                                        class="fs-2 fw-bold text-dark">
+                                        Pelatihan Penyusunan Rencana Usaha UMKM
                                     </a>
                                     {{-- <p class="mb-5 pe-2">
                                         Capitalize on low hanging fruit to <br />
