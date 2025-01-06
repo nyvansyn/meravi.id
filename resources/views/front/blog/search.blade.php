@@ -11,7 +11,7 @@
                             class="sub-title fs-5 px-4 py-2 d-none d-md-inline-flex text-primary rounded-pill border border-primary bg-white z-2">
                             Home <span class="text-secondary">-</span> News & Blog</p>
                         <div class="title-lg ds-2 fw-bold text-white mb-3">Hasil Pencarian</div>
-                        <p class="text-white fs-2">{{ $search }}</p>
+                        <p class="text-white fs-2">{{ Str::upper($search) }}</p>
                     </div>
                 </div>
             </div>

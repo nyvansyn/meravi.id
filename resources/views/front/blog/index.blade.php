@@ -24,7 +24,7 @@
         <!-- blog section-1 end -->
 
         <!-- blog section-2 start -->
-        <section class="blog section-2">
+        <section class="blog section-2 bg-f6">
             <div class="container pt-10 pb-10">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3 mb-6 wow img-custom-anim-left">
@@ -42,6 +42,53 @@
                             </button>
                         </form>
                     </div>
+                </div>
+                <div class="row wow img-custom-anim-top">
+                    @foreach ($posts as $post)
+                        <div class="col-lg-4 col-md-6 col-12 mt-lg-0 mt-5 h-100">
+                            <div class="zoom-img position-relative mb-5">
+                                <a href="{{ route('blog.show', $post->slug) }}" target="_blank">
+                                    <img class="w-100" src="{{ asset('back/assets/img/article/' . $post->cover) }}"
+                                        alt="{{ $post->slug }}" />
+                                    <div class="overlay position-absolute"></div>
+                                    <div class="m-5 position-absolute top-0 start-0">
+                                        <p class="fs-5 text-white bg-gradient py-1 px-2">{{ $post->category->name }}</p>
+                                    </div>
+                                    <div class="m-5 position-absolute top-0 end-0">
+                                        <p class="text-white fs-5 mb-0">{{ $post->created_at->format('d M Y ') }}</p>
+                                    </div>
+                                    <p class="fs-2 text-white fw-bold position-absolute bottom-0 start-0 m-5">
+                                        {{ $post->title }} <br> <span class="fs-6 text-primary">By
+                                            {{ $post->user->name }}</span>
+                                    </p>
+                                </a>
+                            </div>
+
+                        </div>
+                    @endforeach
+                </div>
+                <div class="row wow img-custom-anim-top">
+                    @foreach ($posts as $post)
+                        <div class="col-lg-4 col-md-6 col-12 mt-lg-0 mt-5 h-100">
+                            <div class="zoom-img position-relative mb-5" style="height: 500px;">
+                                <a href="{{ route('blog.show', $post->slug) }}" target="_blank">
+                                    <img class="w-100" src="{{ asset('back/assets/img/article/' . $post->cover) }}"
+                                        alt="{{ $post->slug }}" />
+                                    <div class="overlay position-absolute"></div>
+                                    <div class="m-5 position-absolute top-0 start-0">
+                                        <p class="fs-5 text-white bg-gradient py-1 px-2">{{ $post->category->name }}</p>
+                                    </div>
+                                    <div class="m-5 position-absolute top-0 end-0">
+                                        <p class="text-white fs-5 mb-0">{{ $post->created_at->format('d M Y ') }}</p>
+                                    </div>
+                                    <p class="fs-2 text-white fw-bold position-absolute bottom-0 start-0 m-5">
+                                        {{ $post->title }} <br> <span class="fs-6 text-primary">By
+                                            {{ $post->user->name }}</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    @endforeach
                 </div>
                 <div class="row align-items-center justify-content-center">
                     @foreach ($posts as $post)
