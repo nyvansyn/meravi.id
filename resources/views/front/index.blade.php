@@ -15,6 +15,7 @@
     @include('front.layouts.components.artikel') --}}
     @include('front.homepage.hero')
     @include('front.homepage.about')
+    @include('front.homepage.video')
     @include('front.homepage.portfolio')
     @include('front.homepage.client')
     @include('front.homepage.article')
